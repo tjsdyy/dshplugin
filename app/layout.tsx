@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DSH Plugin Hub — DeepSeek Harness 插件商店",
-  description: "发现、搜索并安装由社区构建的 DeepSeek Harness 插件。",
+  title: "DSH Market — DeepSeek Harness Plugin Marketplace",
+  description: "Discover, search and install community-built plugins for DeepSeek Harness.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
