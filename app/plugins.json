@@ -3,7 +3,7 @@
   "url": "https://dshplugin.io",
   "source": "https://github.com/tjsdyy/dshplugin",
   "updated": "2026-08-14",
-  "count": 252,
+  "count": 268,
   "categories": {
     "ui": {
       "en": "UI",
@@ -3578,6 +3578,214 @@
       "stars": null,
       "install": "dsh plugin --profile web add github:yyh-001/dsh-expression",
       "added": "2026-08-14"
+    },
+    {
+      "name": "upstream-radar",
+      "owner": "MicroMilo",
+      "url": "https://github.com/MicroMilo/upstream-radar",
+      "category": "workflow",
+      "description": {
+        "en": "Always-on vulnerability and breaking-change impact monitoring for coding-agent projects.",
+        "zh": "为编码智能体项目提供全天候的漏洞与破坏性变更影响监控。"
+      },
+      "install": "dsh plugin --profile web add github:MicroMilo/upstream-radar",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-funpack",
+      "owner": "lvyuchuiyi",
+      "url": "https://github.com/lvyuchuiyi/dsh-funpack",
+      "category": "notify",
+      "description": {
+        "en": "A lightweight DeepSeek Harness plugin integrating praise, fortune, battle reports, Pomodoro timer, and slacking-off reminders.",
+        "zh": "夸夸、运势、战报、番茄钟、摸鱼提醒一体化的轻量 DeepSeek Harness 插件"
+      },
+      "install": "dsh plugin --profile web add github:lvyuchuiyi/dsh-funpack",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-eva-theme-plugin",
+      "owner": "oceanxuikun",
+      "url": "https://github.com/oceanxuikun/dsh-eva-theme-plugin",
+      "category": "ui",
+      "description": {
+        "en": "Neon Genesis Evangelion themed surfaces for the DeepSeek Harness Web GUI — three unit schemes (Unit-01/00/02), full-element palettes, mecha art in the sidebar, in-GUI switcher. Installable via `dsh plugin --profile web add <this-dir>`.",
+        "zh": "新世纪福音战士主题界面，适用于 DeepSeek Harness Web GUI —— 三种机体配色方案（Unit-01/00/02）、全元素调色板、侧边栏机甲艺术、GUI内切换器。可通过 `dsh plugin --profile web add <this-dir>` 安装。"
+      },
+      "install": "dsh plugin --profile web add github:oceanxuikun/dsh-eva-theme-plugin",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ui-archived-panel",
+      "owner": "huahai0202",
+      "url": "https://github.com/huahai0202/dsh-ui-archived-panel",
+      "category": "ui",
+      "description": {
+        "en": "Sidebar Archived entry + archived-session panel with unarchive and delete, for the DeepSeek Harness web GUI",
+        "zh": "侧边栏「已归档」入口 + 已归档会话面板，支持取消归档和删除，适用于 DeepSeek Harness 网页界面"
+      },
+      "install": "dsh plugin --profile web add github:huahai0202/dsh-ui-archived-panel",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-llm-fallbacks",
+      "owner": "omdsh-dev",
+      "url": "https://github.com/omdsh-dev/dsh-llm-fallbacks",
+      "category": "workflow",
+      "description": {
+        "en": "Automatic provider/model fallback chains for DeepSeek Harness agents when LLM requests keep failing (retry exhausted, auth, quota, rate limit)",
+        "zh": "为 DeepSeek Harness 代理提供自动供应商/模型回退链，当 LLM 请求持续失败（重试耗尽、认证失败、配额限制、速率限制）时使用。"
+      },
+      "install": "dsh plugin --profile web add github:omdsh-dev/dsh-llm-fallbacks",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-computer-use",
+      "owner": "xiaoheizi1212",
+      "url": "https://github.com/xiaoheizi1212/dsh-computer-use",
+      "category": "tools",
+      "description": {
+        "en": "Model-agnostic Computer Use capability for DeepSeek Harness: isolated browser first, provider-neutral observation, text planner + third-party vision perception.",
+        "zh": "适用于 DeepSeek Harness 的模型无关计算机使用能力：优先使用隔离浏览器，提供与提供商无关的观测，文本规划器 + 第三方视觉感知。"
+      },
+      "install": "dsh plugin --profile web add github:xiaoheizi1212/dsh-computer-use",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-timeline",
+      "owner": "zhangzheng25",
+      "url": "https://github.com/zhangzheng25/dsh-timeline",
+      "category": "workflow",
+      "description": {
+        "en": "Minimal session timeline for DeepSeek Harness: one dot per question, click to jump, hover to preview.",
+        "zh": "会话提问时间线：每条提问一个圆点，点击跳转，悬停预览。"
+      },
+      "install": "dsh plugin --profile web add github:zhangzheng25/dsh-timeline",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-theme-palettes",
+      "owner": "RainbowDashy",
+      "url": "https://github.com/RainbowDashy/dsh-theme-palettes",
+      "category": "ui",
+      "description": {
+        "en": "Palette infrastructure for DeepSeek Harness: scheme-mapped theme palettes with built-in VSCode Red and a third-party registration API.",
+        "zh": "DeepSeek Harness 的调色板基础设施：基于配色方案映射的主题调色板，内置 VSCode Red，并提供第三方注册 API。"
+      },
+      "install": "dsh plugin --profile web add github:RainbowDashy/dsh-theme-palettes",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-gui-customization",
+      "owner": "LAN-TINA-WS",
+      "url": "https://github.com/LAN-TINA-WS/dsh-gui-customization",
+      "category": "tools",
+      "description": {
+        "en": "CORE interface configuration plugin: Nous blue default color scheme, preset and custom 13 colors, ambient lighting (glow/breathing/position), background image (file selection dialog), localStorage+IndexedDB persistence",
+        "zh": "CORE 界面设定插件：Nous 蓝默认配色、预设与自定义 13 色、氛围光（光晕/呼吸/位置）、背景图（文件选择对话框）、localStorage+IndexedDB 持久化"
+      },
+      "install": "dsh plugin --profile web add github:LAN-TINA-WS/dsh-gui-customization#5b9225f12a05110fb003aa6e9bac2ba940902327&path:packages/dsh-gui-customization",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "chiral-pulse",
+      "owner": "MoonShadow1976",
+      "url": "https://github.com/MoonShadow1976/chiral-pulse",
+      "category": "ui",
+      "description": {
+        "en": "CHIRAL PULSE — a Death Stranding-styled BB pod vital-signs monitor for the DeepSeek Harness web UI: the session's heartbeat waveform is the hero, and the pulse reacts to real agent activity.",
+        "zh": "CHIRAL PULSE —— 一个死亡搁浅风格的 BB 舱生命体征监测器，用于 DeepSeek Harness Web UI：会话的心跳波形是主角，脉冲会响应真实的智能体活动。"
+      },
+      "install": "dsh plugin --profile web add github:MoonShadow1976/chiral-pulse",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@deepseek-ai/dsh-lab-kit",
+      "owner": "Suxeca",
+      "url": "https://github.com/Suxeca/dsh-plugin",
+      "category": "ui",
+      "description": {
+        "en": "Research Lab Cockpit: Scans workspace research projects and displays them in the Web GUI sidebar, the first DSH custom plugin for research workflows.",
+        "zh": "科研台 Lab Cockpit：扫描工作区研究项目并在 Web GUI 侧边栏展示，面向科研工作流的第一款 DSH 自定义插件"
+      },
+      "install": "dsh plugin --profile web add github:Suxeca/dsh-plugin#cde157283028d3d62337ea49a47a5548d08875e8&path:packages/dsh-lab-kit",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@suxeca/dsh-client-ui-session-switcher",
+      "owner": "Suxeca",
+      "url": "https://github.com/Suxeca/dsh-plugin",
+      "category": "ui",
+      "description": {
+        "en": "Session quick switch panel: Ctrl+K palette (new/archive/unarchive/rename/search/skin/workspace grouping), Ctrl+[ / ] to cycle through sidebar order, customizable shortcuts within the panel.",
+        "zh": "会话快速切换面板：Ctrl+K 调色板（新建/归档/取消归档/重命名/搜索/皮肤/工作区分组），Ctrl+[ / ] 按侧边栏顺序循环，面板内快捷键自定义"
+      },
+      "install": "dsh plugin --profile web add github:Suxeca/dsh-plugin#cde157283028d3d62337ea49a47a5548d08875e8&path:packages/dsh-client-ui-session-switcher",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@suxeca/dsh-plugin-manager",
+      "owner": "Suxeca",
+      "url": "https://github.com/Suxeca/dsh-plugin",
+      "category": "workflow",
+      "description": {
+        "en": "DSH Plugin Manager: /plugin human command + settings page 'Plugin Management', list/install/uninstall bundle plugins for web profile (modify ~/.dsh/profiles/web/package.json, takes effect after restart)",
+        "zh": "DSH 插件管理器：/plugin 人类命令 + 设置页「插件管理」，列出/安装/卸载 web profile 的 bundle 插件（改 ~/.dsh/profiles/web/package.json，重启生效）"
+      },
+      "install": "dsh plugin --profile web add github:Suxeca/dsh-plugin#cde157283028d3d62337ea49a47a5548d08875e8&path:packages/dsh-plugin-manager",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-imagecraft",
+      "owner": "SPYQWER1",
+      "url": "https://github.com/SPYQWER1/dsh-imagecraft",
+      "category": "tools",
+      "description": {
+        "en": "image_gen and image_vision model tools for the DeepSeek Harness, powered by the ChatGPT subscription (no API key).",
+        "zh": "用于 DeepSeek Harness 的 image_gen 和 image_vision 模型工具，由 ChatGPT 订阅提供支持（无需 API 密钥）。"
+      },
+      "install": "dsh plugin --profile web add github:SPYQWER1/dsh-imagecraft",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-omnibridge",
+      "owner": "One1turn",
+      "url": "https://github.com/One1turn/dsh-omnibridge",
+      "category": "notify",
+      "description": {
+        "en": "Comprehensive message bridge: one plugin to connect DeepSeek Harness to 19 platforms including QQ, WeChat, Feishu, Telegram, Discord, KOOK, LINE, Slack, DingTalk, and WeCom, among others (architecture based on AstrBot).",
+        "zh": "综合消息桥：一个插件把 DeepSeek Harness 接入 QQ / 微信 / 飞书 / Telegram / Discord / KOOK / LINE / Slack / 钉钉 / 企业微信 等 19 个平台（架构参考 AstrBot）。"
+      },
+      "install": "dsh plugin --profile web add github:One1turn/dsh-omnibridge",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@omdsh-dev/dsh-drag-and-drop",
+      "owner": "omdsh-dev",
+      "url": "https://github.com/omdsh-dev/dsh-drag-and-drop",
+      "category": "ui",
+      "description": {
+        "en": "Drag local files into the DSH Web UI and insert their original filesystem paths without uploading or copying them",
+        "zh": "将本地文件拖入 DSH Web 界面，并插入其原始文件系统路径，无需上传或复制它们"
+      },
+      "install": "dsh plugin --profile web add github:omdsh-dev/dsh-drag-and-drop",
+      "added": "2026-08-14",
+      "discoveredFrom": "dshhub.org"
     }
   ]
 }

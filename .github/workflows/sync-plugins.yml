@@ -23,6 +23,8 @@ jobs:
           cache: npm
       - name: Synchronize curated plugins
         run: npm run plugins:sync
+        env:
+          DSHHUB_PAGES: "8"
       - name: Install and verify production build
         run: npm ci --include=dev --include=optional && npm run build
       - name: Commit catalog changes
