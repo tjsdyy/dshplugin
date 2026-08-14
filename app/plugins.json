@@ -6,31 +6,31 @@
  "count": 154,
  "categories": {
   "ui": {
-   "en": "UI Enhancements",
+   "en": "UI",
    "zh": "UI 增强"
   },
   "session": {
-   "en": "Sessions & Messages",
+   "en": "Sessions",
    "zh": "会话与消息"
   },
   "tools": {
-   "en": "Tools & Capabilities",
+   "en": "Tools",
    "zh": "工具与能力"
   },
   "workflow": {
-   "en": "Workflow & Automation",
+   "en": "Automation",
    "zh": "工作流与自动化"
   },
   "notify": {
-   "en": "Notifications & Integrations",
+   "en": "Integrations",
    "zh": "通知与集成"
   },
   "dev": {
-   "en": "Development & Runtime",
+   "en": "Runtime",
    "zh": "开发与运行时"
   },
   "fun": {
-   "en": "Just for Fun",
+   "en": "Fun",
    "zh": "娱乐"
   }
  },
