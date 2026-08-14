@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import registry from "./plugins.json";
+import { pluginSlug } from "./plugin-utils";
 
 type Plugin = (typeof registry.plugins)[number];
 const PAGE_SIZE = 12;
@@ -72,7 +73,7 @@ export default function Home() {
 
           <section className="featured" id="featured">
             <div className="feature-copy"><div className="eyebrow">新用户首选</div><div className="feature-title"><div className="plugin-logo">FP</div><div><h2>{featured.name}</h2><span className="verified">● 社区策展 · by {featured.owner}</span></div></div><p>{featured.description.zh}</p><div className="chips"><span className="chip">插件搜索</span><span className="chip">分类推荐</span><span className="chip">安装命令</span><span className="chip">社区维护</span></div></div>
-            <div className="feature-meta"><div className="rating"><span className="verified-dot">✓</span> 已收录于 Awesome DSH Plugin</div><button className="install" onClick={() => copy(featured)}>{copied === featured.name ? "安装命令已复制 ✓" : "复制安装命令"}</button><div className="install-code">{featured.install}</div><a href={featured.url} target="_blank" rel="noreferrer">查看源代码 ↗</a></div>
+            <div className="feature-meta"><div className="rating"><span className="verified-dot">✓</span> 已收录于 Awesome DSH Plugin</div><button className="install" onClick={() => copy(featured)}>{copied === featured.name ? "安装命令已复制 ✓" : "复制安装命令"}</button><div className="install-code">{featured.install}</div><a href={`/plugin/${pluginSlug(featured.name)}`}>查看插件详情 →</a></div>
           </section>
 
           <section id="plugin-list" className="listing">
@@ -80,7 +81,7 @@ export default function Home() {
 
             {visible.length ? <div className="list">{visible.map((plugin, index) => <article className="plugin" key={plugin.name}>
               <div className={`picon ${tones[(index + page) % tones.length]}`}>{initials(plugin.name)}</div>
-              <div className="plugin-main"><a className="pname" href={plugin.url} target="_blank" rel="noreferrer">{plugin.name} <span>↗</span></a><div className="pdesc">{plugin.description.zh}</div></div>
+              <div className="plugin-main"><a className="pname" href={`/plugin/${pluginSlug(plugin.name)}`}>{plugin.name} <span>→</span></a><div className="pdesc">{plugin.description.zh}</div></div>
               <div className="author"><b>{plugin.owner}</b>社区发布者</div>
               <div><button className="tag" onClick={() => chooseCategory(plugin.category)}>{registry.categories[plugin.category as keyof typeof registry.categories].zh}</button></div>
               <div className="date"><b>{plugin.added}</b>收录日期</div>
