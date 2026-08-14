@@ -37,5 +37,11 @@
     "vite": "8.0.13",
     "wrangler": "4.92.0"
   },
+  "optionalDependencies": {
+    "@rolldown/binding-linux-arm64-gnu": "1.0.1",
+    "@rolldown/binding-linux-arm64-musl": "1.0.1",
+    "@rolldown/binding-linux-x64-gnu": "1.0.1",
+    "@rolldown/binding-linux-x64-musl": "1.0.1"
+  },
   "type": "module"
 }
