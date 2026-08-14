@@ -1,12 +1,12 @@
 # DeepSeek Harness Plugin Marketplace
 
 [![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-154-5660dc)](https://github.com/tjsdyy/dshplugin)
-[![Live](https://img.shields.io/badge/Live-DSH_Market-3d9f6f)](https://dsh-plugin-market.coolinggg.chatgpt.site)
+[![Live](https://img.shields.io/badge/Live-DSH_Market-3d9f6f)](https://dshplugin.io/)
 [![License](https://img.shields.io/badge/license-community_directory-24242b)](#license--disclaimer)
 
 A searchable, bilingual **DeepSeek Harness plugin** marketplace and community directory. Discover tools, UI extensions, memory, automation, integrations, runtime components, and playful add-ons for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
 
-**Live directory:** [English](https://dsh-plugin-market.coolinggg.chatgpt.site/) · [中文](https://dsh-plugin-market.coolinggg.chatgpt.site/zh/) · [Submit a plugin](https://github.com/tjsdyy/dshplugin/issues/new?labels=plugin-submission)
+**Live directory:** [English](https://dshplugin.io/) · [中文](https://dshplugin.io/zh/) · [Submit a plugin](https://github.com/tjsdyy/dshplugin/issues/new?labels=plugin-submission)
 
 ## What is a DeepSeek Harness plugin?
 
@@ -233,7 +233,7 @@ Then ask your agent to find a plugin, or browse the marketplace for a copy-ready
 
 ## 中文说明
 
-DSH Market 是一个中英双语的 **DeepSeek Harness Plugin 插件市场**，收录界面增强、会话记忆、工具能力、自动化、通知集成、运行时和娱乐类社区插件。访问[中文插件目录](https://dsh-plugin-market.coolinggg.chatgpt.site/zh/)可搜索、筛选并复制安装命令。
+DSH Market 是一个中英双语的 **DeepSeek Harness Plugin 插件市场**，收录界面增强、会话记忆、工具能力、自动化、通知集成、运行时和娱乐类社区插件。访问[中文插件目录](https://dshplugin.io/zh/)可搜索、筛选并复制安装命令。
 
 ## Development
 

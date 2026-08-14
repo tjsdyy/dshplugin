@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import registry from "./plugins.json";
 import { pluginSlug } from "./plugin-utils";
-const base="https://dsh-plugin-market.coolinggg.chatgpt.site";
+const base="https://dshplugin.io";
 export default function sitemap():MetadataRoute.Sitemap{
  const updated=new Date(`${registry.updated}T00:00:00Z`);
  const home:MetadataRoute.Sitemap=[{url:`${base}/`,lastModified:updated,changeFrequency:"daily",priority:1,alternates:{languages:{en:`${base}/`,"zh-CN":`${base}/zh/`}}},{url:`${base}/zh/`,lastModified:updated,changeFrequency:"daily",priority:.9,alternates:{languages:{en:`${base}/`,"zh-CN":`${base}/zh/`}}}];

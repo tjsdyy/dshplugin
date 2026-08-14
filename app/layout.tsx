@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dsh-plugin-market.coolinggg.chatgpt.site"),
+  metadataBase: new URL("https://dshplugin.io"),
   title: { default: "DeepSeek Harness Plugin Marketplace | DSH Market", template: "%s | DSH Market" },
   description: "Discover 154 DeepSeek Harness plugins for tools, UI, memory, automation and integrations. Browse source code and copy ready-to-run DSH install commands.",
   keywords: ["deepseek harness plugin", "deepseek harness plugins", "DSH plugin", "DeepSeek plugin marketplace", "dsh plugin add"],

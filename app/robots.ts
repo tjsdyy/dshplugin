@@ -1,2 +1,2 @@
 import type { MetadataRoute } from "next";
-export default function robots():MetadataRoute.Robots{return {rules:{userAgent:"*",allow:"/"},sitemap:"https://dsh-plugin-market.coolinggg.chatgpt.site/sitemap.xml",host:"https://dsh-plugin-market.coolinggg.chatgpt.site"}}
+export default function robots():MetadataRoute.Robots{return {rules:{userAgent:"*",allow:"/"},sitemap:"https://dshplugin.io/sitemap.xml",host:"https://dshplugin.io"}}
