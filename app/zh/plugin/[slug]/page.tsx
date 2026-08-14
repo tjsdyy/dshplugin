@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const plugin = registry.plugins.find((item) => pluginSlug(item.name) === slug);
   if (!plugin) return { title: "插件未找到 · DSH Market" };
-  return { title: `${plugin.name} · DSH Market`, description: plugin.description.zh };
+  return { title: `${plugin.name} — DeepSeek Harness 插件`, description: plugin.description.zh, alternates:{canonical:`/zh/plugin/${slug}`,languages:{en:`/plugin/${slug}`,"zh-CN":`/zh/plugin/${slug}`,"x-default":`/plugin/${slug}`}},openGraph:{type:"website",locale:"zh_CN",url:`/zh/plugin/${slug}`,title:`${plugin.name} — DeepSeek Harness 插件`,description:plugin.description.zh} };
 }
 
 export default async function PluginDetail({ params }: Props) {
