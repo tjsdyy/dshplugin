@@ -3,7 +3,7 @@
   "url": "https://dshplugin.io",
   "source": "https://github.com/tjsdyy/dshplugin",
   "updated": "2026-08-15",
-  "count": 1275,
+  "count": 1346,
   "categories": {
     "ui": {
       "en": "UI",
@@ -17429,6 +17429,929 @@
         "zh": "DSH usage statistics dashboard: token / cost / duration / session aggregation with trend, heatmap and calendar views (settings.section \"数据看板\")."
       },
       "install": "dsh plugin --profile web add github:skkjkk/dsh-usage-dashboard",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-jumpserver",
+      "owner": "easyv-ai",
+      "url": "https://github.com/easyv-ai/dsh-jumpserver",
+      "category": "tools",
+      "description": {
+        "en": "DeepSeek Harness plugin for managing JumpServer v3.7.1 through curated, plan-and-approve tools.",
+        "zh": "DeepSeek Harness plugin for managing JumpServer v3.7.1 through curated, plan-and-approve tools."
+      },
+      "install": "dsh plugin --profile web add github:easyv-ai/dsh-jumpserver",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ctl",
+      "owner": "w2831120407",
+      "url": "https://github.com/w2831120407/dsh-ctl",
+      "category": "ui",
+      "description": {
+        "en": "DeepSeek Harness (dsh) Web control plugin: restart / shutdown the dsh web process from the Settings panel, plus a treat (小鱼干) top-up for the whale-girl pet. / dsh 系统控制插件：设置页一键重启/关闭 dsh web，并为鲸鱼娘宠物补给小鱼干。",
+        "zh": "DeepSeek Harness (dsh) Web control plugin: restart / shutdown the dsh web process from the Settings panel, plus a treat (小鱼干) top-up for the whale-girl pet. / dsh 系统控制插件：设置页一键重启/关闭 dsh web，并为鲸鱼娘宠物补给小鱼干。"
+      },
+      "install": "dsh plugin --profile web add github:w2831120407/dsh-ctl",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-merge-conflicts",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-merge-conflicts",
+      "category": "skill",
+      "description": {
+        "en": "解决 git 合并/变基冲突：看清现状→找到各方意图→逐块解决→跑自动化检查→完成合并。受 mattpocock/skills（223k★ MIT）启发。",
+        "zh": "解决 git 合并/变基冲突：看清现状→找到各方意图→逐块解决→跑自动化检查→完成合并。受 mattpocock/skills（223k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-merge-conflicts",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-domain-modeling",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-domain-modeling",
+      "category": "skill",
+      "description": {
+        "en": "领域建模：主动构建并打磨项目的领域模型（CONTEXT.md 术语表 + ADR 决策记录），挑战模糊术语、推敲边界场景。受 mattpocock/skills（223k★ MIT）启发。",
+        "zh": "领域建模：主动构建并打磨项目的领域模型（CONTEXT.md 术语表 + ADR 决策记录），挑战模糊术语、推敲边界场景。受 mattpocock/skills（223k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-domain-modeling",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-doubt-driven-dev",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-doubt-driven-dev",
+      "category": "skill",
+      "description": {
+        "en": "怀疑驱动开发：每个非平凡决策在落地前接受新鲜上下文的对抗性审查（CLAIM→EXTRACT→DOUBT→RECONCILE→STOP）。受 addyosmani/agent-skills（88k★ MIT）启发。",
+        "zh": "怀疑驱动开发：每个非平凡决策在落地前接受新鲜上下文的对抗性审查（CLAIM→EXTRACT→DOUBT→RECONCILE→STOP）。受 addyosmani/agent-skills（88k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-doubt-driven-dev",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-external/dsh-client-ui-skin-doro",
+      "owner": "Baizhuojielan",
+      "url": "https://github.com/Baizhuojielan/dsh-doro",
+      "category": "ui",
+      "description": {
+        "en": "Doro-themed hot-pluggable skin for the dsh web GUI: pink-and-orange accent theme with orange-motif placeholder art. Personal-use fan theme — swap in your own Doro artwork via src/client/art.ts.",
+        "zh": "Doro-themed hot-pluggable skin for the dsh web GUI: pink-and-orange accent theme with orange-motif placeholder art. Personal-use fan theme — swap in your own Doro artwork via src/client/art.ts."
+      },
+      "install": "dsh plugin --profile web add github:Baizhuojielan/dsh-doro",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-context-engineering",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-context-engineering",
+      "category": "skill",
+      "description": {
+        "en": "上下文工程：按层级（规则文件→规格→源码→错误输出→对话历史）主动策划 agent 看到的信息，提升输出质量。受 addyosmani/agent-skills（88k★ MIT）启发。",
+        "zh": "上下文工程：按层级（规则文件→规格→源码→错误输出→对话历史）主动策划 agent 看到的信息，提升输出质量。受 addyosmani/agent-skills（88k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-context-engineering",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-aloof",
+      "owner": "gaochonggeng",
+      "url": "https://github.com/gaochonggeng/dsh-aloof",
+      "category": "tools",
+      "description": {
+        "en": "把 Aloof 的办公审批接成 DeepSeek Harness 的原生工具：查待办、看可发起的审批、读表单字段、发起单子。写操作先过 dsh 的审批闸门。",
+        "zh": "把 Aloof 的办公审批接成 DeepSeek Harness 的原生工具：查待办、看可发起的审批、读表单字段、发起单子。写操作先过 dsh 的审批闸门。"
+      },
+      "install": "dsh plugin --profile web add github:gaochonggeng/dsh-aloof",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-personal-center",
+      "owner": "PolinniZhong",
+      "url": "https://github.com/PolinniZhong/dsh-personal-center",
+      "category": "ui",
+      "description": {
+        "en": "DSH 个人中心:设置 →「个人」分区(个人资料统计 UI + 个性化自定义指令);统计数据待接入",
+        "zh": "DSH 个人中心:设置 →「个人」分区(个人资料统计 UI + 个性化自定义指令);统计数据待接入"
+      },
+      "install": "dsh plugin --profile web add github:PolinniZhong/dsh-personal-center",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-external/dsh-llm-approver",
+      "owner": "Xpectuer",
+      "url": "https://github.com/Xpectuer/dsh-llm-approver",
+      "category": "tools",
+      "description": {
+        "en": "LLM pre-review for sandbox-escalation approvals: an independent-context LLM gate answers sandbox escalation requests before they reach the user, falling back to the user on any failure.",
+        "zh": "LLM pre-review for sandbox-escalation approvals: an independent-context LLM gate answers sandbox escalation requests before they reach the user, falling back to the user on any failure."
+      },
+      "install": "dsh plugin --profile web add github:Xpectuer/dsh-llm-approver",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ppt-creator",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-ppt-creator",
+      "category": "tools",
+      "description": {
+        "en": "中文 PPT 生成技能：结构化大纲 → 视觉设计 → HTML/PPTX 出稿，附排版自查清单。原创技能（参考 GordenPPTSkill / ppt-master 思路）。",
+        "zh": "中文 PPT 生成技能：结构化大纲 → 视觉设计 → HTML/PPTX 出稿，附排版自查清单。原创技能（参考 GordenPPTSkill / ppt-master 思路）。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-ppt-creator",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-karpathy-methodology",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-karpathy-methodology",
+      "category": "skill",
+      "description": {
+        "en": "Karpathy 编码方法论：先想后写、简单优先、外科手术式改动、目标驱动验证。受 andrej-karpathy-skills（203k★）启发的 DSH 原创改编。",
+        "zh": "Karpathy 编码方法论：先想后写、简单优先、外科手术式改动、目标驱动验证。受 andrej-karpathy-skills（203k★）启发的 DSH 原创改编。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-karpathy-methodology",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-superpowers-essentials",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-superpowers-essentials",
+      "category": "skill",
+      "description": {
+        "en": "工程方法论技能集：实现前先分类并获批（Spike/Bounded/Architectural）、系统化调试。受 obra/superpowers（274k★ MIT）启发的 DSH 原创改编。",
+        "zh": "工程方法论技能集：实现前先分类并获批（Spike/Bounded/Architectural）、系统化调试。受 obra/superpowers（274k★ MIT）启发的 DSH 原创改编。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-superpowers-essentials",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-humanizer-zh",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-humanizer-zh",
+      "category": "skill",
+      "description": {
+        "en": "中文去 AI 痕迹：识别并改写 AI 生成的腔调（空洞强调、模板句、过度书面化、机械结构），让文字更像人写的。受 op7418/Humanizer-zh（15.6k★ MIT）启发。",
+        "zh": "中文去 AI 痕迹：识别并改写 AI 生成的腔调（空洞强调、模板句、过度书面化、机械结构），让文字更像人写的。受 op7418/Humanizer-zh（15.6k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-humanizer-zh",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-career-ops",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-career-ops",
+      "category": "skill",
+      "description": {
+        "en": "求职指挥中心：JD 分析评估（A-F 评分）、简历优化、求职管线与面试准备。受 santifer/career-ops（65k★ MIT）启发的中文精简原创技能。",
+        "zh": "求职指挥中心：JD 分析评估（A-F 评分）、简历优化、求职管线与面试准备。受 santifer/career-ops（65k★ MIT）启发的中文精简原创技能。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-career-ops",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-daily-sticky",
+      "owner": "DoggyHU",
+      "url": "https://github.com/DoggyHU/dsh-daily-sticky",
+      "category": "tools",
+      "description": {
+        "en": "每日语音便签 DSH web 插件：轻量浮动便签（勾选完成可取消/可编辑/可添加/可删除）+ JSON 按日日志 + 周/月数量环比统计。保留 AI 语音抽取闭环，去掉番茄钟。",
+        "zh": "每日语音便签 DSH web 插件：轻量浮动便签（勾选完成可取消/可编辑/可添加/可删除）+ JSON 按日日志 + 周/月数量环比统计。保留 AI 语音抽取闭环，去掉番茄钟。"
+      },
+      "install": "dsh plugin --profile web add github:DoggyHU/dsh-daily-sticky",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-external/ego-browser",
+      "owner": "Fisfzy",
+      "url": "https://github.com/Fisfzy/dsh-ego-browser",
+      "category": "notify",
+      "description": {
+        "en": "ego-browser (ego-lite) integration plugin for DSH: structured browser-automation tools (30+ ego_*) that drive the vendored ego runtime through ctx.subprocess, plus a realtime watch panel (live SSE screencast + direct mouse interaction with the agent browser + download capture + human-verification notice + tab bar + login guide).",
+        "zh": "ego-browser (ego-lite) integration plugin for DSH: structured browser-automation tools (30+ ego_*) that drive the vendored ego runtime through ctx.subprocess, plus a realtime watch panel (live SSE screencast + direct mouse interaction with the agent browser + download capture + human-verification notice + tab bar + login guide)."
+      },
+      "install": "dsh plugin --profile web add github:Fisfzy/dsh-ego-browser",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-book-reader",
+      "owner": "davidwellscn-maker",
+      "url": "https://github.com/davidwellscn-maker/dsh-book-reader",
+      "category": "tools",
+      "description": {
+        "en": "DSH 读书工作台：PDF 阅读（react-pdf-viewer）+ 选中发对话 + 黄色高亮标注 + 持久化",
+        "zh": "DSH 读书工作台：PDF 阅读（react-pdf-viewer）+ 选中发对话 + 黄色高亮标注 + 持久化"
+      },
+      "install": "dsh plugin --profile web add github:davidwellscn-maker/dsh-book-reader",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-win-notify",
+      "owner": "linfunss",
+      "url": "https://github.com/linfunss/dsh-win-notify",
+      "category": "notify",
+      "description": {
+        "en": "Windows 11 system notification bridge plugin for DeepSeek Harness: branded toasts (DeepSeek name + whale icon + sound) when user confirmation is needed and when the model finishes running. Zero dependencies, zero build step.",
+        "zh": "Windows 11 system notification bridge plugin for DeepSeek Harness: branded toasts (DeepSeek name + whale icon + sound) when user confirmation is needed and when the model finishes running. Zero dependencies, zero build step."
+      },
+      "install": "dsh plugin --profile web add github:linfunss/dsh-win-notify",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-budget",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "tools",
+      "description": {
+        "en": "BudgetService：credit 双闸 + tokenMeter + ledger（13）",
+        "zh": "BudgetService：credit 双闸 + tokenMeter + ledger（13）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-budget",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-client-pet",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "ui",
+      "description": {
+        "en": "桌宠表现层 client：dsh-pet 人格化扩展（17/04）",
+        "zh": "桌宠表现层 client：dsh-pet 人格化扩展（17/04）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-client-pet",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-core",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "tools",
+      "description": {
+        "en": "Director/Arbiter/Task 状态机 + dispatch_task tool（03）",
+        "zh": "Director/Arbiter/Task 状态机 + dispatch_task tool（03）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-core",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-executors",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "tools",
+      "description": {
+        "en": "tool：llama.cpp 本地 / DeepSeek·Kimi 云端 / 外部框架 CLI（03 §4.2）",
+        "zh": "tool：llama.cpp 本地 / DeepSeek·Kimi 云端 / 外部框架 CLI（03 §4.2）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-executors",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-memory",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "memory",
+      "description": {
+        "en": "MemoryHub：M0~M5 + storage.domain（11）",
+        "zh": "MemoryHub：M0~M5 + storage.domain（11）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-memory",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-permission",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "tools",
+      "description": {
+        "en": "PermissionService：五级分类 + 确认链 + audit（15）",
+        "zh": "PermissionService：五级分类 + 确认链 + audit（15）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-permission",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "hermit-persona",
+      "owner": "jorinyang",
+      "url": "https://github.com/jorinyang/dsh-hermit",
+      "category": "memory",
+      "description": {
+        "en": "人格段：角色卡 + 措辞铁律 + 记忆渲染 SystemPrompt.section（04/11）",
+        "zh": "人格段：角色卡 + 措辞铁律 + 记忆渲染 SystemPrompt.section（04/11）"
+      },
+      "install": "dsh plugin --profile web add github:jorinyang/dsh-hermit#ec608d7d211aea8447cf0d08c6123c8a4d5109f4&path:packages/hermit-persona",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-launcher",
+      "owner": "Alvinpro",
+      "url": "https://github.com/Alvinpro/DSH-Launcher",
+      "category": "ui",
+      "description": {
+        "en": "DSH plugin bundle: ships dsh-launcher.exe and creates a Windows desktop shortcut. 作为分发渠道,随包提供 DSH-Launcher 并在桌面创建快捷方式。",
+        "zh": "DSH plugin bundle: ships dsh-launcher.exe and creates a Windows desktop shortcut. 作为分发渠道,随包提供 DSH-Launcher 并在桌面创建快捷方式。"
+      },
+      "install": "dsh plugin --profile web add github:Alvinpro/DSH-Launcher",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-live",
+      "owner": "fore-vip",
+      "url": "https://github.com/fore-vip/dsh-live",
+      "category": "workflow",
+      "description": {
+        "en": "DeepSeek Harness（DSH）多平台直播推流插件：摄像头/麦克风采集、屏幕选区直播、画中画（PiP）、多平台多选同步推流（视频号/抖音/快手/斗鱼/B站/YY/虎牙/CC/自定义 RTMP）、ffmpeg 引擎真实推流。Cordis bundle 插件。",
+        "zh": "DeepSeek Harness（DSH）多平台直播推流插件：摄像头/麦克风采集、屏幕选区直播、画中画（PiP）、多平台多选同步推流（视频号/抖音/快手/斗鱼/B站/YY/虎牙/CC/自定义 RTMP）、ffmpeg 引擎真实推流。Cordis bundle 插件。"
+      },
+      "install": "dsh plugin --profile web add github:fore-vip/dsh-live",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-external/dsh-workspace-menu",
+      "owner": "0imzero",
+      "url": "https://github.com/0imzero/dsh-workspace-menu",
+      "category": "workflow",
+      "description": {
+        "en": "DSH 主页工作区/会话右键与双击增强菜单：置顶、重命名、资源管理器打开、归档、分叉、复制、新窗口等",
+        "zh": "DSH 主页工作区/会话右键与双击增强菜单：置顶、重命名、资源管理器打开、归档、分叉、复制、新窗口等"
+      },
+      "install": "dsh plugin --profile web add github:0imzero/dsh-workspace-menu",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-voice",
+      "owner": "KotDath",
+      "url": "https://github.com/KotDath/dsh-voice",
+      "category": "tools",
+      "description": {
+        "en": "ChatGPT-style voice input for the DeepSeek Harness Web GUI: mic button, recording pill with live waveform, transcription via transcribe.cpp (Handy model catalog), whisper.cpp, or an OpenAI-compatible API",
+        "zh": "ChatGPT-style voice input for the DeepSeek Harness Web GUI: mic button, recording pill with live waveform, transcription via transcribe.cpp (Handy model catalog), whisper.cpp, or an OpenAI-compatible API"
+      },
+      "install": "dsh plugin --profile web add github:KotDath/dsh-voice",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsdragpasteall",
+      "owner": "balue8246-maker",
+      "url": "https://github.com/balue8246-maker/dsDragPasteALL",
+      "category": "tools",
+      "description": {
+        "en": "dsDragPasteALL：拖拽/粘贴本机任意文件到 DSH 页面，后台静默反查文件真实路径（Spotlight + find + 首尾哈希校验），命中后把路径直接插入对话框输入框；找不到原文件则内容缓存兜底。",
+        "zh": "dsDragPasteALL：拖拽/粘贴本机任意文件到 DSH 页面，后台静默反查文件真实路径（Spotlight + find + 首尾哈希校验），命中后把路径直接插入对话框输入框；找不到原文件则内容缓存兜底。"
+      },
+      "install": "dsh plugin --profile web add github:balue8246-maker/dsDragPasteALL",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-approve-for-me",
+      "owner": "watericetangcw",
+      "url": "https://github.com/watericetangcw/dsh-approve-for-me",
+      "category": "workflow",
+      "description": {
+        "en": "DSH web bundle: codex-style Approve For Me — a reviewer model auto-approves low-risk escalation requests, and auto-rejects (or routes to the user) high-risk ones.",
+        "zh": "DSH web bundle: codex-style Approve For Me — a reviewer model auto-approves low-risk escalation requests, and auto-rejects (or routes to the user) high-risk ones."
+      },
+      "install": "dsh plugin --profile web add github:watericetangcw/dsh-approve-for-me",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@firefly0621/dsh-skill-always-apply",
+      "owner": "oThTJx",
+      "url": "https://github.com/oThTJx/dsh-skill-always-apply",
+      "category": "skill",
+      "description": {
+        "en": "Inject skills marked alwaysApply into DeepSeek Harness sessions without a skill tool load",
+        "zh": "Inject skills marked alwaysApply into DeepSeek Harness sessions without a skill tool load"
+      },
+      "install": "dsh plugin --profile web add github:oThTJx/dsh-skill-always-apply",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-plugin/dsh-loader",
+      "owner": "dsh-plugins",
+      "url": "https://github.com/dsh-plugins/dsh-loader",
+      "category": "tools",
+      "description": {
+        "en": "Runtime compatibility shim for dsh (DeepSeek Harness) cordis bundle plugins: decouples third-party plugins from real dsh internal service names, module paths, and RPC details via a version-aware adapter registry.",
+        "zh": "Runtime compatibility shim for dsh (DeepSeek Harness) cordis bundle plugins: decouples third-party plugins from real dsh internal service names, module paths, and RPC details via a version-aware adapter registry."
+      },
+      "install": "dsh plugin --profile web add github:dsh-plugins/dsh-loader",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-plugin-deploy",
+      "owner": "Octo-o-o-o",
+      "url": "https://github.com/Octo-o-o-o/dsh-plugin-deploy",
+      "category": "workflow",
+      "description": {
+        "en": "DeepSeek Harness 插件：一句话把当前项目部署到 Cloudflare",
+        "zh": "DeepSeek Harness 插件：一句话把当前项目部署到 Cloudflare"
+      },
+      "install": "dsh plugin --profile web add github:Octo-o-o-o/dsh-plugin-deploy",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-blueprint",
+      "owner": "taltara",
+      "url": "https://github.com/taltara/mddl-harness",
+      "category": "workflow",
+      "description": {
+        "en": "See and validate a DeepSeek Harness overlay before you apply it: a Harness Map tab for the web client.",
+        "zh": "See and validate a DeepSeek Harness overlay before you apply it: a Harness Map tab for the web client."
+      },
+      "install": "dsh plugin --profile web add github:taltara/mddl-harness#a2029f0f9288caf98cf7a1c6deb47936eb2b924e&path:packages/blueprint",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-btw",
+      "owner": "136155330",
+      "url": "https://github.com/136155330/dsh-btw",
+      "category": "workflow",
+      "description": {
+        "en": "/btw slash command for DeepSeek Harness: ask a context-aware side question without touching the main conversation",
+        "zh": "/btw slash command for DeepSeek Harness: ask a context-aware side question without touching the main conversation"
+      },
+      "install": "dsh plugin --profile web add github:136155330/dsh-btw",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-wake",
+      "owner": "RickDeng005",
+      "url": "https://github.com/RickDeng005/dsh-wake",
+      "category": "ui",
+      "description": {
+        "en": "Wake up DeepSeek Harness: one-click desktop/taskbar/startup shortcuts that start the dsh web server (hidden) and open the GUI, a cold-start whale-girl dance overlay, and a close-button overlay with a fully-quit / close-window dialog.",
+        "zh": "Wake up DeepSeek Harness: one-click desktop/taskbar/startup shortcuts that start the dsh web server (hidden) and open the GUI, a cold-start whale-girl dance overlay, and a close-button overlay with a fully-quit / close-window dialog."
+      },
+      "install": "dsh plugin --profile web add github:RickDeng005/dsh-wake",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@gehennawu/dsh-service",
+      "owner": "gehennawu",
+      "url": "https://github.com/gehennawu/dsh-service",
+      "category": "ui",
+      "description": {
+        "en": "DSH Web 自托管运维面板：安全重启、健康监控、备份和 Linux 权限维护。",
+        "zh": "DSH Web 自托管运维面板：安全重启、健康监控、备份和 Linux 权限维护。"
+      },
+      "install": "dsh plugin --profile web add github:gehennawu/dsh-service",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-error-tell/client-tell",
+      "owner": "dphmoblie",
+      "url": "https://github.com/dphmoblie/dsh-error-tell",
+      "category": "tools",
+      "description": {
+        "en": "DSH web 加载页注入 + errorTell 端点：浏览器一键禁用/恢复问题插件",
+        "zh": "DSH web 加载页注入 + errorTell 端点：浏览器一键禁用/恢复问题插件"
+      },
+      "install": "dsh plugin --profile web add github:dphmoblie/dsh-error-tell#231124fd8786d33430bbe0f60d8fea52d914ef93&path:packages/client-tell",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dsh-error-tell/runtime-guard",
+      "owner": "dphmoblie",
+      "url": "https://github.com/dphmoblie/dsh-error-tell",
+      "category": "tools",
+      "description": {
+        "en": "DSH 宿主运行时看门狗：捕获兄弟插件失败并在进程退出前同步落盘禁用",
+        "zh": "DSH 宿主运行时看门狗：捕获兄弟插件失败并在进程退出前同步落盘禁用"
+      },
+      "install": "dsh plugin --profile web add github:dphmoblie/dsh-error-tell#231124fd8786d33430bbe0f60d8fea52d914ef93&path:packages/runtime-guard",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@dong-victor/dsh-better-sidebar-jupyter",
+      "owner": "dong-victor",
+      "url": "https://github.com/dong-victor/dsh-better-sidebar-jupyter",
+      "category": "ui",
+      "description": {
+        "en": "Jupyter notebook support for the dsh-better-sidebar editor: .ipynb opens inline as a runnable notebook viewer with IDEA/PyCharm-style run mode (Ctrl+Enter / Shift+Enter / run-all shortcuts, IDEA toolbar, gutter run icons, In/Out labels, execution duration, collapsible tracebacks), a lazy-start Python kernel (jupyter_client + ipykernel via python/bridge.py), background execution and save-back. Registers the ipynb file viewer through the ctx.betterSidebar service.",
+        "zh": "Jupyter notebook support for the dsh-better-sidebar editor: .ipynb opens inline as a runnable notebook viewer with IDEA/PyCharm-style run mode (Ctrl+Enter / Shift+Enter / run-all shortcuts, IDEA toolbar, gutter run icons, In/Out labels, execution duration, collapsible tracebacks), a lazy-start Python kernel (jupyter_client + ipykernel via python/bridge.py), background execution and save-back. Registers the ipynb file viewer through the ctx.betterSidebar service."
+      },
+      "install": "dsh plugin --profile web add github:dong-victor/dsh-better-sidebar-jupyter",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-dir-tree",
+      "owner": "bentong-chain",
+      "url": "https://github.com/bentong-chain/dsh-dir-tree",
+      "category": "workflow",
+      "description": {
+        "en": "浮窗工作区目录树插件：拖拽路径、懒加载、搜索。Floating workspace directory-tree with drag-drop paths.",
+        "zh": "浮窗工作区目录树插件：拖拽路径、懒加载、搜索。Floating workspace directory-tree with drag-drop paths."
+      },
+      "install": "dsh plugin --profile web add github:bentong-chain/dsh-dir-tree",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-neon",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-neon",
+      "category": "tools",
+      "description": {
+        "en": "氖元素",
+        "zh": "氖元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-neon",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-fluorine",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-fluorine",
+      "category": "tools",
+      "description": {
+        "en": "氟元素",
+        "zh": "氟元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-fluorine",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-oxygen",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-oxygen",
+      "category": "tools",
+      "description": {
+        "en": "氧元素",
+        "zh": "氧元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-oxygen",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-quartiles",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-quartiles",
+      "category": "tools",
+      "description": {
+        "en": "四分位数",
+        "zh": "四分位数"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-quartiles",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-stddev",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-stddev",
+      "category": "tools",
+      "description": {
+        "en": "标准差",
+        "zh": "标准差"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-stddev",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-carbon",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-carbon",
+      "category": "tools",
+      "description": {
+        "en": "碳元素",
+        "zh": "碳元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-carbon",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-variance",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-variance",
+      "category": "tools",
+      "description": {
+        "en": "方差",
+        "zh": "方差"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-variance",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-log-any",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-log-any",
+      "category": "tools",
+      "description": {
+        "en": "任意底对数",
+        "zh": "任意底对数"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-log-any",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-nitrogen",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-nitrogen",
+      "category": "tools",
+      "description": {
+        "en": "氮元素",
+        "zh": "氮元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-nitrogen",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-boron",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-boron",
+      "category": "tools",
+      "description": {
+        "en": "硼元素",
+        "zh": "硼元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-boron",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-power-mod",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-power-mod",
+      "category": "tools",
+      "description": {
+        "en": "模幂",
+        "zh": "模幂"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-power-mod",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-nth-root",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-nth-root",
+      "category": "tools",
+      "description": {
+        "en": "N 次方根",
+        "zh": "N 次方根"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-nth-root",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-beryllium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-beryllium",
+      "category": "tools",
+      "description": {
+        "en": "铍元素",
+        "zh": "铍元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-beryllium",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-hydrogen",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-hydrogen",
+      "category": "tools",
+      "description": {
+        "en": "氢元素",
+        "zh": "氢元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-hydrogen",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-lithium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-lithium",
+      "category": "tools",
+      "description": {
+        "en": "锂元素",
+        "zh": "锂元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-lithium",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-midpoint",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-midpoint",
+      "category": "tools",
+      "description": {
+        "en": "中点计算",
+        "zh": "中点计算"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-midpoint",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-helium",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-helium",
+      "category": "tools",
+      "description": {
+        "en": "氦元素",
+        "zh": "氦元素"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-helium",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-distance-2d",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-distance-2d",
+      "category": "tools",
+      "description": {
+        "en": "两点距离",
+        "zh": "两点距离"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-distance-2d",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-quadratic",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-quadratic",
+      "category": "tools",
+      "description": {
+        "en": "二次方程",
+        "zh": "二次方程"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-quadratic",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-slope",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-slope",
+      "category": "tools",
+      "description": {
+        "en": "斜率计算",
+        "zh": "斜率计算"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-slope",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-regular-polygon",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-regular-polygon",
+      "category": "tools",
+      "description": {
+        "en": "正多边形",
+        "zh": "正多边形"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-regular-polygon",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ellipse",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-ellipse",
+      "category": "tools",
+      "description": {
+        "en": "椭圆面积",
+        "zh": "椭圆面积"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-ellipse",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-trapezoid",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-trapezoid",
+      "category": "tools",
+      "description": {
+        "en": "梯形面积",
+        "zh": "梯形面积"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-trapezoid",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-cone",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-cone",
+      "category": "tools",
+      "description": {
+        "en": "圆锥计算",
+        "zh": "圆锥计算"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-cone",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-cube",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-cube",
+      "category": "tools",
+      "description": {
+        "en": "立方体计算",
+        "zh": "立方体计算"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-cube",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-cylinder",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-cylinder",
+      "category": "tools",
+      "description": {
+        "en": "圆柱计算",
+        "zh": "圆柱计算"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-cylinder",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-sphere",
+      "owner": "uckkk",
+      "url": "https://github.com/uckkk/dsh-sphere",
+      "category": "tools",
+      "description": {
+        "en": "球体计算",
+        "zh": "球体计算"
+      },
+      "install": "dsh plugin --profile web add github:uckkk/dsh-sphere",
+      "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-subagent-codex",
+      "owner": "mjylfz",
+      "url": "https://github.com/mjylfz/dsh-subagent-codex",
+      "category": "workflow",
+      "description": {
+        "en": "DSH subagent provider that delegates tasks to the OpenAI Codex CLI (codex exec), exposing the subagent_codex tool",
+        "zh": "DSH subagent provider that delegates tasks to the OpenAI Codex CLI (codex exec), exposing the subagent_codex tool"
+      },
+      "install": "dsh plugin --profile web add github:mjylfz/dsh-subagent-codex",
       "added": "2026-08-19",
       "discoveredFrom": "dshhub.org"
     }
