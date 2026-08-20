@@ -1,6 +1,6 @@
 # DeepSeek Harness Plugin Marketplace
 
-[![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-1346-5660dc)](https://github.com/tjsdyy/dshplugin)
+[![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-1417-5660dc)](https://github.com/tjsdyy/dshplugin)
 [![Live](https://img.shields.io/badge/Live-DSH_Market-3d9f6f)](https://dshplugin.io/)
 [![Auto sync](https://img.shields.io/badge/catalog-auto--synced-24242b)](https://github.com/tjsdyy/dshplugin/actions/workflows/sync-plugins.yml)
 
@@ -24,21 +24,21 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## Plugin categories
 
-- [UI](#ui) — 342 plugins · UI 增强
+- [UI](#ui) — 343 plugins · UI 增强
 - [Themes](#themes) — 10 plugins · 主题与外观
 - [Sessions](#sessions) — 30 plugins · 会话与消息
 - [Memory](#memory) — 81 plugins · 记忆
-- [Tools](#tools) — 376 plugins · 工具与能力
-- [Skills](#skills) — 57 plugins · 技能包
-- [Automation](#automation) — 240 plugins · 工作流与自动化
-- [Integrations](#integrations) — 96 plugins · 通知与集成
+- [Tools](#tools) — 379 plugins · 工具与能力
+- [Skills](#skills) — 121 plugins · 技能包
+- [Automation](#automation) — 242 plugins · 工作流与自动化
+- [Integrations](#integrations) — 97 plugins · 通知与集成
 - [Models](#models) — 9 plugins · 模型与账号接入
 - [Runtime](#runtime) — 83 plugins · 开发与运行时
 - [Fun](#fun) — 22 plugins · 娱乐
 
 ## UI
 
-**342 plugins · UI 增强**
+**343 plugins · UI 增强**
 
 - [**dsh-web-mobile-fix**](https://github.com/AcidGr/dsh-web-mobile-fix) — Mobile layout fixes for the Web UI on narrow screens: full-screen settings panel, one-row plugin nav, full-screen sidebar, centered popups, icon-only session-log button. · `dsh plugin --profile web add dsh-web-mobile-fix`
 - [**dsh-web-mobile**](https://github.com/mexiaosqwq/dsh-web-mobile) — Mobile-adaptive layout for the DSH Web UI: the sidebar becomes a content-hugging overlay drawer, the conversation gets the full width, and the settings panel becomes a near-full-width sheet. · `dsh plugin --profile web add github:mexiaosqwq/dsh-web-mobile`
@@ -382,6 +382,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-wake**](https://github.com/RickDeng005/dsh-wake) — Wake up DeepSeek Harness: one-click desktop/taskbar/startup shortcuts that start the dsh web server (hidden) and open the GUI, a cold-start whale-girl dance overlay, and a close-button overlay with a fully-quit / close-window dialog. · `dsh plugin --profile web add github:RickDeng005/dsh-wake`
 - [**@gehennawu/dsh-service**](https://github.com/gehennawu/dsh-service) — DSH Web 自托管运维面板：安全重启、健康监控、备份和 Linux 权限维护。 · `dsh plugin --profile web add github:gehennawu/dsh-service`
 - [**@dong-victor/dsh-better-sidebar-jupyter**](https://github.com/dong-victor/dsh-better-sidebar-jupyter) — Jupyter notebook support for the dsh-better-sidebar editor: .ipynb opens inline as a runnable notebook viewer with IDEA/PyCharm-style run mode (Ctrl+Enter / Shift+Enter / run-all shortcuts, IDEA toolbar, gutter run icons, In/Out labels, execution duration, collapsible tracebacks), a lazy-start Python kernel (jupyter_client + ipykernel via python/bridge.py), background execution and save-back. Registers the ipynb file viewer through the ctx.betterSidebar service. · `dsh plugin --profile web add github:dong-victor/dsh-better-sidebar-jupyter`
+- [**@windypro-rourou/dsh-code-studio**](https://github.com/WindyPro-rourou/dsh-code-studio) — Code Studio for DSH Web GUI — a VS Code + Cline hybrid: file tree, syntax-highlighted editor, and Cline-style line-by-line diffs that auto-appear when the agent edits files. · `dsh plugin --profile web add github:WindyPro-rourou/dsh-code-studio`
 
 ## Themes
 
@@ -521,7 +522,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## Tools
 
-**376 plugins · 工具与能力**
+**379 plugins · 工具与能力**
 
 - [**dsh-mcp-bridge**](https://github.com/Edge-Echo/dsh-mcp-bridge) — Curated MCP server bundle: one install brings demo, memory, filesystem, GitHub, Playwright and remote HTTP MCP servers, plus a connectivity verifier tool and CI checks. · `dsh plugin --profile web add dsh-mcp-bridge`
 - [**godot-bridge**](https://github.com/Smalldy/godot-bridge) — DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp. · `dsh plugin --profile web add github:Smalldy/godot-bridge`
@@ -899,10 +900,13 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-cube**](https://github.com/uckkk/dsh-cube) — 立方体计算 · `dsh plugin --profile web add github:uckkk/dsh-cube`
 - [**dsh-cylinder**](https://github.com/uckkk/dsh-cylinder) — 圆柱计算 · `dsh plugin --profile web add github:uckkk/dsh-cylinder`
 - [**dsh-sphere**](https://github.com/uckkk/dsh-sphere) — 球体计算 · `dsh plugin --profile web add github:uckkk/dsh-sphere`
+- [**dsh-checkdigit**](https://github.com/TYEclipse/dsh-checkdigit) — Check-digit mathematics toolbox for DeepSeek Harness (dsh): generate, validate and detect check digits for Luhn, Verhoeff, Damm, ISBN-10/13, EAN-8/13, UPC-A, ISIN, CUSIP and IBAN — zero runtime dependencies · `dsh plugin --profile web add github:TYEclipse/dsh-checkdigit`
+- [**dsh-ai-image-design**](https://github.com/satan9394/dsh-ai-image-design) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-ai-image-design`
+- [**@javierni/balance-show**](https://github.com/JavierNier/balance-show) — Balance & usage card plugin built on the DeepSeek Harness for its Web GUI (not affiliated with DeepSeek): account balance with color tiers, plus live per-conversation token usage and cost (peak/off-peak priced). · `dsh plugin --profile web add github:JavierNier/balance-show`
 
 ## Skills
 
-**57 plugins · 技能包**
+**121 plugins · 技能包**
 
 - [**dsh-reverse-skill**](https://github.com/dhicoc/dsh-reverse-skill) — Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router. · `dsh plugin --profile web add github:dhicoc/dsh-reverse-skill`
 - [**skills**](https://github.com/creght-dev/skills) — Skills for building websites on the Creght platform: CLI pull/push sync, page and component conventions, CMS, forms, auth, SEO, publishing and version rollback. · `dsh plugin --profile web add github:creght-dev/skills`
@@ -961,10 +965,74 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-humanizer-zh**](https://github.com/satan9394/dsh-humanizer-zh) — 中文去 AI 痕迹：识别并改写 AI 生成的腔调（空洞强调、模板句、过度书面化、机械结构），让文字更像人写的。受 op7418/Humanizer-zh（15.6k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-humanizer-zh`
 - [**dsh-career-ops**](https://github.com/satan9394/dsh-career-ops) — 求职指挥中心：JD 分析评估（A-F 评分）、简历优化、求职管线与面试准备。受 santifer/career-ops（65k★ MIT）启发的中文精简原创技能。 · `dsh plugin --profile web add github:satan9394/dsh-career-ops`
 - [**@firefly0621/dsh-skill-always-apply**](https://github.com/oThTJx/dsh-skill-always-apply) — Inject skills marked alwaysApply into DeepSeek Harness sessions without a skill tool load · `dsh plugin --profile web add github:oThTJx/dsh-skill-always-apply`
+- [**dsh-algorithmic-art**](https://github.com/satan9394/dsh-algorithmic-art) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-algorithmic-art`
+- [**dsh-brand-guidelines**](https://github.com/satan9394/dsh-brand-guidelines) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-brand-guidelines`
+- [**dsh-internal-comms**](https://github.com/satan9394/dsh-internal-comms) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-internal-comms`
+- [**dsh-document-generation**](https://github.com/satan9394/dsh-document-generation) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-document-generation`
+- [**dsh-writing-fragments**](https://github.com/satan9394/dsh-writing-fragments) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-writing-fragments`
+- [**dsh-writing-beats**](https://github.com/satan9394/dsh-writing-beats) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-writing-beats`
+- [**dsh-writing-shape**](https://github.com/satan9394/dsh-writing-shape) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-writing-shape`
+- [**dsh-workflow-loop**](https://github.com/satan9394/dsh-workflow-loop) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-workflow-loop`
+- [**dsh-setup-wizard**](https://github.com/satan9394/dsh-setup-wizard) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-setup-wizard`
+- [**dsh-wayfinder**](https://github.com/satan9394/dsh-wayfinder) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-wayfinder`
+- [**dsh-to-questionnaire**](https://github.com/satan9394/dsh-to-questionnaire) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-to-questionnaire`
+- [**dsh-prototype**](https://github.com/satan9394/dsh-prototype) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-prototype`
+- [**dsh-codebase-design**](https://github.com/satan9394/dsh-codebase-design) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-codebase-design`
+- [**dsh-teach**](https://github.com/satan9394/dsh-teach) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-teach`
+- [**dsh-git-guardrails**](https://github.com/satan9394/dsh-git-guardrails) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-git-guardrails`
+- [**dsh-issue-triage**](https://github.com/satan9394/dsh-issue-triage) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-issue-triage`
+- [**dsh-writing-for-agents**](https://github.com/satan9394/dsh-writing-for-agents) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-writing-for-agents`
+- [**dsh-security-compliance**](https://github.com/satan9394/dsh-security-compliance) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-security-compliance`
+- [**dsh-api-scaffolding**](https://github.com/satan9394/dsh-api-scaffolding) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-api-scaffolding`
+- [**dsh-web-scripting**](https://github.com/satan9394/dsh-web-scripting) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-web-scripting`
+- [**dsh-deployment-validation**](https://github.com/satan9394/dsh-deployment-validation) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-deployment-validation`
+- [**dsh-full-stack-orchestration**](https://github.com/satan9394/dsh-full-stack-orchestration) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-full-stack-orchestration`
+- [**dsh-api-documentation**](https://github.com/satan9394/dsh-api-documentation) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-api-documentation`
+- [**dsh-tech-debt**](https://github.com/satan9394/dsh-tech-debt) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-tech-debt`
+- [**dsh-functional-programming**](https://github.com/satan9394/dsh-functional-programming) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-functional-programming`
+- [**dsh-sales-automation**](https://github.com/satan9394/dsh-sales-automation) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-sales-automation`
+- [**dsh-distributed-debugging**](https://github.com/satan9394/dsh-distributed-debugging) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-distributed-debugging`
+- [**dsh-observability-tools**](https://github.com/satan9394/dsh-observability-tools) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-observability-tools`
+- [**dsh-content-marketing**](https://github.com/satan9394/dsh-content-marketing) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-content-marketing`
+- [**dsh-operating-kit**](https://github.com/satan9394/dsh-operating-kit) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-operating-kit`
+- [**dsh-threat-modeling**](https://github.com/satan9394/dsh-threat-modeling) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-threat-modeling`
+- [**dsh-before-you-build**](https://github.com/satan9394/dsh-before-you-build) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-before-you-build`
+- [**dsh-dotnet-backend**](https://github.com/satan9394/dsh-dotnet-backend) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-dotnet-backend`
+- [**dsh-kpi-dashboard-design**](https://github.com/satan9394/dsh-kpi-dashboard-design) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-kpi-dashboard-design`
+- [**dsh-bash-testing**](https://github.com/satan9394/dsh-bash-testing) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-bash-testing`
+- [**dsh-plugin-eval**](https://github.com/satan9394/dsh-plugin-eval) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-plugin-eval`
+- [**dsh-framework-migration**](https://github.com/satan9394/dsh-framework-migration) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-framework-migration`
+- [**dsh-brand-landingpage**](https://github.com/satan9394/dsh-brand-landingpage) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-brand-landingpage`
+- [**dsh-hr-legal-compliance**](https://github.com/satan9394/dsh-hr-legal-compliance) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-hr-legal-compliance`
+- [**dsh-reverse-engineering**](https://github.com/satan9394/dsh-reverse-engineering) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-reverse-engineering`
+- [**dsh-kubernetes-operations**](https://github.com/satan9394/dsh-kubernetes-operations) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-kubernetes-operations`
+- [**dsh-data-engineering**](https://github.com/satan9394/dsh-data-engineering) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-data-engineering`
+- [**dsh-track-driven-dev**](https://github.com/satan9394/dsh-track-driven-dev) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-track-driven-dev`
+- [**dsh-codebase-scanner**](https://github.com/satan9394/dsh-codebase-scanner) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-codebase-scanner`
+- [**dsh-x-twitter-research**](https://github.com/satan9394/dsh-x-twitter-research) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-x-twitter-research`
+- [**dsh-review-agent-governance**](https://github.com/satan9394/dsh-review-agent-governance) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-review-agent-governance`
+- [**dsh-e2e-testing**](https://github.com/satan9394/dsh-e2e-testing) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-e2e-testing`
+- [**dsh-frontend-mobile**](https://github.com/satan9394/dsh-frontend-mobile) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-frontend-mobile`
+- [**dsh-social-publishing**](https://github.com/satan9394/dsh-social-publishing) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-social-publishing`
+- [**dsh-javascript-typescript**](https://github.com/satan9394/dsh-javascript-typescript) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-javascript-typescript`
+- [**dsh-hybrid-cloud**](https://github.com/satan9394/dsh-hybrid-cloud) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-hybrid-cloud`
+- [**dsh-python-development**](https://github.com/satan9394/dsh-python-development) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-python-development`
+- [**dsh-multi-cloud**](https://github.com/satan9394/dsh-multi-cloud) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-multi-cloud`
+- [**dsh-signed-audit-trails**](https://github.com/satan9394/dsh-signed-audit-trails) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-signed-audit-trails`
+- [**dsh-file-conversion**](https://github.com/satan9394/dsh-file-conversion) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-file-conversion`
+- [**dsh-game-development**](https://github.com/satan9394/dsh-game-development) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-game-development`
+- [**dsh-blockchain-web3**](https://github.com/satan9394/dsh-blockchain-web3) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-blockchain-web3`
+- [**dsh-vector-search**](https://github.com/satan9394/dsh-vector-search) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-vector-search`
+- [**dsh-cloud-cost-optimization**](https://github.com/satan9394/dsh-cloud-cost-optimization) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-cloud-cost-optimization`
+- [**dsh-llm-finetuning**](https://github.com/satan9394/dsh-llm-finetuning) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-llm-finetuning`
+- [**dsh-service-mesh**](https://github.com/satan9394/dsh-service-mesh) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-service-mesh`
+- [**dsh-event-driven-architecture**](https://github.com/satan9394/dsh-event-driven-architecture) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-event-driven-architecture`
+- [**dsh-payment-processing**](https://github.com/satan9394/dsh-payment-processing) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-payment-processing`
+- [**dsh-bazel-build-optimization**](https://github.com/satan9394/dsh-bazel-build-optimization) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-bazel-build-optimization`
 
 ## Automation
 
-**240 plugins · 工作流与自动化**
+**242 plugins · 工作流与自动化**
 
 - [**dsh-task-planner**](https://github.com/ztl34245881-commits/dsh-task-planner) — Task planning with experience muscle-memory: condition-reflex recall of past solutions, LLM capability matching, and auto-persisted lessons. · `dsh plugin --profile web add github:ztl34245881-commits/dsh-task-planner`
 - [**dsh_workflow**](https://github.com/icetomoyo/dsh_workflow) — UltraCode-style multi-agent orchestration: a generatable, savable, governable, observable, resumable workflow layer. · `dsh plugin --profile web add github:icetomoyo/dsh_workflow`
@@ -1206,10 +1274,12 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-btw**](https://github.com/136155330/dsh-btw) — /btw slash command for DeepSeek Harness: ask a context-aware side question without touching the main conversation · `dsh plugin --profile web add github:136155330/dsh-btw`
 - [**dsh-dir-tree**](https://github.com/bentong-chain/dsh-dir-tree) — 浮窗工作区目录树插件：拖拽路径、懒加载、搜索。Floating workspace directory-tree with drag-drop paths. · `dsh plugin --profile web add github:bentong-chain/dsh-dir-tree`
 - [**dsh-subagent-codex**](https://github.com/mjylfz/dsh-subagent-codex) — DSH subagent provider that delegates tasks to the OpenAI Codex CLI (codex exec), exposing the subagent_codex tool · `dsh plugin --profile web add github:mjylfz/dsh-subagent-codex`
+- [**@sandbaseai/dsh-plugin-store**](https://github.com/sandbaseai/dsh-plugin-store) — Native DeepSeek Harness plugin marketplace for discovering, filtering, installing, and managing community DSH plugins. · `dsh plugin --profile web add github:sandbaseai/dsh-plugin-store`
+- [**dsh-ai-council**](https://github.com/AGSQ11/dsh-ai-council) — Role-driven enterprise AI council for DeepSeek Harness with editable corporate personas, multi-round deliberation, dynamic model assignment, consensus gates and failover. · `dsh plugin --profile web add github:AGSQ11/dsh-ai-council`
 
 ## Integrations
 
-**96 plugins · 通知与集成**
+**97 plugins · 通知与集成**
 
 - [**dsh-plugin-call-me**](https://github.com/radres/dsh-plugin-call-me) — Rings your phone over CallKit: `call_me` and `text_me` tools, plus optional turn-end and approval calls whose spoken answer is transcribed back into the session. · `dsh plugin --profile web add github:radres/dsh-plugin-call-me`
 - [**dsh-open-in-vscode**](https://github.com/omdsh-dev/dsh-open-in-vscode) — Open DSH workspace directories in VS Code directly from the web GUI. · `dsh plugin --profile web add github:omdsh-dev/dsh-open-in-vscode`
@@ -1307,6 +1377,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-a2a-server**](https://github.com/MicroWearld/dsh-a2a-server) — A2A server bridge plugin for DeepSeek Harness · `dsh plugin --profile web add github:MicroWearld/dsh-a2a-server`
 - [**@dsh-external/ego-browser**](https://github.com/Fisfzy/dsh-ego-browser) — ego-browser (ego-lite) integration plugin for DSH: structured browser-automation tools (30+ ego_*) that drive the vendored ego runtime through ctx.subprocess, plus a realtime watch panel (live SSE screencast + direct mouse interaction with the agent browser + download capture + human-verification notice + tab bar + login guide). · `dsh plugin --profile web add github:Fisfzy/dsh-ego-browser`
 - [**dsh-win-notify**](https://github.com/linfunss/dsh-win-notify) — Windows 11 system notification bridge plugin for DeepSeek Harness: branded toasts (DeepSeek name + whale icon + sound) when user confirmation is needed and when the model finishes running. Zero dependencies, zero build step. · `dsh plugin --profile web add github:linfunss/dsh-win-notify`
+- [**dsh-mcp-builder**](https://github.com/satan9394/dsh-mcp-builder) — SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。 · `dsh plugin --profile web add github:satan9394/dsh-mcp-builder`
 
 ## Models
 

@@ -3,7 +3,7 @@
   "url": "https://dshplugin.io",
   "source": "https://github.com/tjsdyy/dshplugin",
   "updated": "2026-08-15",
-  "count": 1346,
+  "count": 1417,
   "categories": {
     "ui": {
       "en": "UI",
@@ -18353,6 +18353,929 @@
       },
       "install": "dsh plugin --profile web add github:mjylfz/dsh-subagent-codex",
       "added": "2026-08-19",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-algorithmic-art",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-algorithmic-art",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-algorithmic-art",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-brand-guidelines",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-brand-guidelines",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-brand-guidelines",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-internal-comms",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-internal-comms",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-internal-comms",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-document-generation",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-document-generation",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-document-generation",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@sandbaseai/dsh-plugin-store",
+      "owner": "sandbaseai",
+      "url": "https://github.com/sandbaseai/dsh-plugin-store",
+      "category": "workflow",
+      "description": {
+        "en": "Native DeepSeek Harness plugin marketplace for discovering, filtering, installing, and managing community DSH plugins.",
+        "zh": "Native DeepSeek Harness plugin marketplace for discovering, filtering, installing, and managing community DSH plugins."
+      },
+      "install": "dsh plugin --profile web add github:sandbaseai/dsh-plugin-store",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-mcp-builder",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-mcp-builder",
+      "category": "notify",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-mcp-builder",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-writing-fragments",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-writing-fragments",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-writing-fragments",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-writing-beats",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-writing-beats",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-writing-beats",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-writing-shape",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-writing-shape",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-writing-shape",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-workflow-loop",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-workflow-loop",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-workflow-loop",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-setup-wizard",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-setup-wizard",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-setup-wizard",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-wayfinder",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-wayfinder",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-wayfinder",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-to-questionnaire",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-to-questionnaire",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-to-questionnaire",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-prototype",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-prototype",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-prototype",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-codebase-design",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-codebase-design",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-codebase-design",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@windypro-rourou/dsh-code-studio",
+      "owner": "WindyPro-rourou",
+      "url": "https://github.com/WindyPro-rourou/dsh-code-studio",
+      "category": "ui",
+      "description": {
+        "en": "Code Studio for DSH Web GUI — a VS Code + Cline hybrid: file tree, syntax-highlighted editor, and Cline-style line-by-line diffs that auto-appear when the agent edits files.",
+        "zh": "Code Studio for DSH Web GUI — a VS Code + Cline hybrid: file tree, syntax-highlighted editor, and Cline-style line-by-line diffs that auto-appear when the agent edits files."
+      },
+      "install": "dsh plugin --profile web add github:WindyPro-rourou/dsh-code-studio",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-teach",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-teach",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-teach",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-git-guardrails",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-git-guardrails",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-git-guardrails",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-issue-triage",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-issue-triage",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-issue-triage",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-writing-for-agents",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-writing-for-agents",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-writing-for-agents",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-security-compliance",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-security-compliance",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-security-compliance",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-api-scaffolding",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-api-scaffolding",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-api-scaffolding",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-web-scripting",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-web-scripting",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-web-scripting",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-deployment-validation",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-deployment-validation",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-deployment-validation",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-full-stack-orchestration",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-full-stack-orchestration",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-full-stack-orchestration",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-api-documentation",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-api-documentation",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-api-documentation",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-tech-debt",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-tech-debt",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-tech-debt",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-functional-programming",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-functional-programming",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-functional-programming",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-checkdigit",
+      "owner": "TYEclipse",
+      "url": "https://github.com/TYEclipse/dsh-checkdigit",
+      "category": "tools",
+      "description": {
+        "en": "Check-digit mathematics toolbox for DeepSeek Harness (dsh): generate, validate and detect check digits for Luhn, Verhoeff, Damm, ISBN-10/13, EAN-8/13, UPC-A, ISIN, CUSIP and IBAN — zero runtime dependencies",
+        "zh": "Check-digit mathematics toolbox for DeepSeek Harness (dsh): generate, validate and detect check digits for Luhn, Verhoeff, Damm, ISBN-10/13, EAN-8/13, UPC-A, ISIN, CUSIP and IBAN — zero runtime dependencies"
+      },
+      "install": "dsh plugin --profile web add github:TYEclipse/dsh-checkdigit",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ai-image-design",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-ai-image-design",
+      "category": "tools",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-ai-image-design",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-sales-automation",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-sales-automation",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-sales-automation",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-distributed-debugging",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-distributed-debugging",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-distributed-debugging",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-observability-tools",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-observability-tools",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-observability-tools",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-content-marketing",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-content-marketing",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-content-marketing",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-operating-kit",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-operating-kit",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-operating-kit",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-threat-modeling",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-threat-modeling",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-threat-modeling",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-before-you-build",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-before-you-build",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-before-you-build",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ai-council",
+      "owner": "AGSQ11",
+      "url": "https://github.com/AGSQ11/dsh-ai-council",
+      "category": "workflow",
+      "description": {
+        "en": "Role-driven enterprise AI council for DeepSeek Harness with editable corporate personas, multi-round deliberation, dynamic model assignment, consensus gates and failover.",
+        "zh": "Role-driven enterprise AI council for DeepSeek Harness with editable corporate personas, multi-round deliberation, dynamic model assignment, consensus gates and failover."
+      },
+      "install": "dsh plugin --profile web add github:AGSQ11/dsh-ai-council",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-dotnet-backend",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-dotnet-backend",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-dotnet-backend",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-kpi-dashboard-design",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-kpi-dashboard-design",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-kpi-dashboard-design",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-bash-testing",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-bash-testing",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-bash-testing",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-plugin-eval",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-plugin-eval",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-plugin-eval",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-framework-migration",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-framework-migration",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-framework-migration",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-brand-landingpage",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-brand-landingpage",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-brand-landingpage",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-hr-legal-compliance",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-hr-legal-compliance",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-hr-legal-compliance",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-reverse-engineering",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-reverse-engineering",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-reverse-engineering",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-kubernetes-operations",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-kubernetes-operations",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-kubernetes-operations",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-data-engineering",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-data-engineering",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-data-engineering",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-track-driven-dev",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-track-driven-dev",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-track-driven-dev",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-codebase-scanner",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-codebase-scanner",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-codebase-scanner",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-x-twitter-research",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-x-twitter-research",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-x-twitter-research",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-review-agent-governance",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-review-agent-governance",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-review-agent-governance",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-e2e-testing",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-e2e-testing",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-e2e-testing",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-frontend-mobile",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-frontend-mobile",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-frontend-mobile",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-social-publishing",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-social-publishing",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-social-publishing",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-javascript-typescript",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-javascript-typescript",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-javascript-typescript",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-hybrid-cloud",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-hybrid-cloud",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-hybrid-cloud",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-python-development",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-python-development",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-python-development",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@javierni/balance-show",
+      "owner": "JavierNier",
+      "url": "https://github.com/JavierNier/balance-show",
+      "category": "tools",
+      "description": {
+        "en": "Balance & usage card plugin built on the DeepSeek Harness for its Web GUI (not affiliated with DeepSeek): account balance with color tiers, plus live per-conversation token usage and cost (peak/off-peak priced).",
+        "zh": "Balance & usage card plugin built on the DeepSeek Harness for its Web GUI (not affiliated with DeepSeek): account balance with color tiers, plus live per-conversation token usage and cost (peak/off-peak priced)."
+      },
+      "install": "dsh plugin --profile web add github:JavierNier/balance-show",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-multi-cloud",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-multi-cloud",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-multi-cloud",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-signed-audit-trails",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-signed-audit-trails",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-signed-audit-trails",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-file-conversion",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-file-conversion",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-file-conversion",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-game-development",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-game-development",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-game-development",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-blockchain-web3",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-blockchain-web3",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-blockchain-web3",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-vector-search",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-vector-search",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-vector-search",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-cloud-cost-optimization",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-cloud-cost-optimization",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-cloud-cost-optimization",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-llm-finetuning",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-llm-finetuning",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-llm-finetuning",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-service-mesh",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-service-mesh",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-service-mesh",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-event-driven-architecture",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-event-driven-architecture",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-event-driven-architecture",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-payment-processing",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-payment-processing",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-payment-processing",
+      "added": "2026-08-20",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-bazel-build-optimization",
+      "owner": "satan9394",
+      "url": "https://github.com/satan9394/dsh-bazel-build-optimization",
+      "category": "skill",
+      "description": {
+        "en": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。",
+        "zh": "SQL 优化模式：EXPLAIN 分析、索引策略、N+1 解决、查询改写。受 wshobson/agents（38k★ MIT）启发。"
+      },
+      "install": "dsh plugin --profile web add github:satan9394/dsh-bazel-build-optimization",
+      "added": "2026-08-20",
       "discoveredFrom": "dshhub.org"
     }
   ]
