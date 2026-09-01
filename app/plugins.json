@@ -3,7 +3,7 @@
   "url": "https://dshplugin.io",
   "source": "https://github.com/tjsdyy/dshplugin",
   "updated": "2026-08-15",
-  "count": 2806,
+  "count": 2843,
   "categories": {
     "ui": {
       "en": "UI",
@@ -37332,6 +37332,487 @@
         "zh": "Gungnir Adaptive Loop Runtime — a drop-in replacement driver for the DSH default agent loop. Lock the goal. Adapt the loop. Prove the hit. (ADR-0012; internal package name @gungnir/agent-loop, npm release name candidate dsh-gungnir-loop.)"
       },
       "install": "dsh plugin --profile web add github:Jonah-Wu23/dsh-gungnir#22d5a93a6cf3bb57e6a9d4f9650af930019ae723&path:packages/agent-loop",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-memory",
+      "owner": "mnbvcxzaqwertyuioplm",
+      "url": "https://github.com/mnbvcxzaqwertyuioplm/dsh-memory",
+      "category": "memory",
+      "description": {
+        "en": "DSH 本体（web/headless profile）的跨会话语义记忆工具：memory_add / memory_search。智谱 embedding-3 向量 + SQLite + 余弦相似度。配置可选、绝不因缺 key / 缺库 / 缺服务而崩。",
+        "zh": "DSH 本体（web/headless profile）的跨会话语义记忆工具：memory_add / memory_search。智谱 embedding-3 向量 + SQLite + 余弦相似度。配置可选、绝不因缺 key / 缺库 / 缺服务而崩。"
+      },
+      "install": "dsh plugin --profile web add github:mnbvcxzaqwertyuioplm/dsh-memory",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@weibaohui/experts-management",
+      "owner": "weibaohui",
+      "url": "https://github.com/weibaohui/experts-management",
+      "category": "skill",
+      "description": {
+        "en": "dsh 插件 · 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），浏览/安装 50+ 内置专家市场；每个专家注册为「仅用户可调用」的技能，在对话输入框用 /expert-名称 即可以该专家的身份执行任务（宿主确定性注入角色定义与技能清单，不占用模型目录 token）。",
+        "zh": "dsh 插件 · 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），浏览/安装 50+ 内置专家市场；每个专家注册为「仅用户可调用」的技能，在对话输入框用 /expert-名称 即可以该专家的身份执行任务（宿主确定性注入角色定义与技能清单，不占用模型目录 token）。"
+      },
+      "install": "dsh plugin --profile web add github:weibaohui/experts-management",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-session-bridge",
+      "owner": "heartmove",
+      "url": "https://github.com/heartmove/dsh-session-bridge",
+      "category": "ui",
+      "description": {
+        "en": "会话桥（dsh-session-bridge）：通过提示词创建新的主会话（顶层 UI 会话）、向任意会话发送消息、等待会话的下一条回复、读取会话消息，并按会话名或 id 跨工作区查找会话；此外支持监控/调度主任务与归档会话。",
+        "zh": "会话桥（dsh-session-bridge）：通过提示词创建新的主会话（顶层 UI 会话）、向任意会话发送消息、等待会话的下一条回复、读取会话消息，并按会话名或 id 跨工作区查找会话；此外支持监控/调度主任务与归档会话。"
+      },
+      "install": "dsh plugin --profile web add github:heartmove/dsh-session-bridge",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-memory-nexus",
+      "owner": "Frank-NF",
+      "url": "https://github.com/Frank-NF/dsh-memory-nexus",
+      "category": "memory",
+      "description": {
+        "en": "DSH 一体化记忆与上下文管控增强插件 — 四层记忆 + 上下文压缩 + 提示词编排",
+        "zh": "DSH 一体化记忆与上下文管控增强插件 — 四层记忆 + 上下文压缩 + 提示词编排"
+      },
+      "install": "dsh plugin --profile web add github:Frank-NF/dsh-memory-nexus",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-codex-message-navigator",
+      "owner": "miaomiao636",
+      "url": "https://github.com/miaomiao636/dsh-message-navigator",
+      "category": "ui",
+      "description": {
+        "en": "Codex-style message navigator for the DeepSeek Harness Web UI",
+        "zh": "Codex-style message navigator for the DeepSeek Harness Web UI"
+      },
+      "install": "dsh plugin --profile web add github:miaomiao636/dsh-message-navigator",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-hindsight-memory",
+      "owner": "jackyytche",
+      "url": "https://github.com/jackyytche/dsh-hindsight-memory",
+      "category": "memory",
+      "description": {
+        "en": "Hindsight long-term memory for DeepSeek Harness: auto-recall context injection before each agent step (agent/pre-step) and auto-retain of each finished turn (session/event).",
+        "zh": "Hindsight long-term memory for DeepSeek Harness: auto-recall context injection before each agent step (agent/pre-step) and auto-retain of each finished turn (session/event)."
+      },
+      "install": "dsh plugin --profile web add github:jackyytche/dsh-hindsight-memory",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-attach-picker",
+      "owner": "qwerty-k-de",
+      "url": "https://github.com/qwerty-k-de/dsh-attach-picker",
+      "category": "tools",
+      "description": {
+        "en": "DSH Web 输入框工具栏图片按钮：点击用系统文件选择器挑图片，不用拖拽。Toolbar button that opens the OS file picker to attach images to the DSH Web composer — no drag-and-drop needed.",
+        "zh": "DSH Web 输入框工具栏图片按钮：点击用系统文件选择器挑图片，不用拖拽。Toolbar button that opens the OS file picker to attach images to the DSH Web composer — no drag-and-drop needed."
+      },
+      "install": "dsh plugin --profile web add github:qwerty-k-de/dsh-attach-picker",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-compaction-micro",
+      "owner": "Perfirstvito",
+      "url": "https://github.com/Perfirstvito/dsh-compaction-micro",
+      "category": "tools",
+      "description": {
+        "en": "Tiered micro-clear layer for DeepSeek Harness compaction: clears whitelisted re-runnable tool results to placeholders before the official summarization tier, freeing context with no model call.",
+        "zh": "Tiered micro-clear layer for DeepSeek Harness compaction: clears whitelisted re-runnable tool results to placeholders before the official summarization tier, freeing context with no model call."
+      },
+      "install": "dsh plugin --profile web add github:Perfirstvito/dsh-compaction-micro",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-default-workspace",
+      "owner": "CDeZT",
+      "url": "https://github.com/CDeZT/dsh-default-workspace",
+      "category": "memory",
+      "description": {
+        "en": "Cross-platform native DSH default workspace with complete read-only access to DSH resources, including sensitive state.",
+        "zh": "Cross-platform native DSH default workspace with complete read-only access to DSH resources, including sensitive state."
+      },
+      "install": "dsh plugin --profile web add github:CDeZT/dsh-default-workspace",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-visual-workflow",
+      "owner": "GZX2211",
+      "url": "https://github.com/GZX2211/dsh-Visual-Workflow",
+      "category": "skill",
+      "description": {
+        "en": "DSH host + client 双面可视化多 Agent 工作流设计器插件（模式一编排执行 / 模式二后台服务）",
+        "zh": "DSH host + client 双面可视化多 Agent 工作流设计器插件（模式一编排执行 / 模式二后台服务）"
+      },
+      "install": "dsh plugin --profile web add github:GZX2211/dsh-Visual-Workflow",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "get-fable",
+      "owner": "imMamdouhaboammar",
+      "url": "https://github.com/imMamdouhaboammar/get-fable",
+      "category": "ui",
+      "description": {
+        "en": "A portable coding lifecycle for AI agents with deterministic routing across 25 skills, durable state, mutation-aware verification, specialized skill packs, lifecycle hooks, DeepSeek Harness plugin & consumed web UI, and an optional local request proxy.",
+        "zh": "A portable coding lifecycle for AI agents with deterministic routing across 25 skills, durable state, mutation-aware verification, specialized skill packs, lifecycle hooks, DeepSeek Harness plugin & consumed web UI, and an optional local request proxy."
+      },
+      "install": "dsh plugin --profile web add github:imMamdouhaboammar/get-fable",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-local-path-attachments",
+      "owner": "WangZetian-IVERSON",
+      "url": "https://github.com/WangZetian-IVERSON/dsh-local-path-attachments",
+      "category": "ui",
+      "description": {
+        "en": "Drag local files into DeepSeek Harness Desktop as absolute-path attachment cards without copying them into the workspace",
+        "zh": "Drag local files into DeepSeek Harness Desktop as absolute-path attachment cards without copying them into the workspace"
+      },
+      "install": "dsh plugin --profile web add github:WangZetian-IVERSON/dsh-local-path-attachments",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-agent-mailbox",
+      "owner": "blairlaird",
+      "url": "https://github.com/blairlaird/dsh-agent-mailbox",
+      "category": "notify",
+      "description": {
+        "en": "Durable agent-to-agent mailbox for DeepSeek Harness: any MCP client or DSH session can address any other. Threads, receipts, search, broadcast, edit/withdraw, reactions. Local-only, zero dependencies, secrets redacted on ingest.",
+        "zh": "Durable agent-to-agent mailbox for DeepSeek Harness: any MCP client or DSH session can address any other. Threads, receipts, search, broadcast, edit/withdraw, reactions. Local-only, zero dependencies, secrets redacted on ingest."
+      },
+      "install": "dsh plugin --profile web add github:blairlaird/dsh-agent-mailbox",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@weibaohui/dsh-settings-ui",
+      "owner": "weibaohui",
+      "url": "https://github.com/weibaohui/dsh-settings-ui",
+      "category": "tools",
+      "description": {
+        "en": "dsh 插件 · 设置界面自定义：调整原生设置窗口大小（全屏 / 预置大尺寸 / 自定义宽高）、背景透明度与背景（主题 / 自定义颜色 / 图片），悬浮球即开即调，存本机浏览器",
+        "zh": "dsh 插件 · 设置界面自定义：调整原生设置窗口大小（全屏 / 预置大尺寸 / 自定义宽高）、背景透明度与背景（主题 / 自定义颜色 / 图片），悬浮球即开即调，存本机浏览器"
+      },
+      "install": "dsh plugin --profile web add github:weibaohui/dsh-settings-ui",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-citation-auditor",
+      "owner": "AndKinoko",
+      "url": "https://github.com/AndKinoko/DSH-Search-Citation-Auditor",
+      "category": "tools",
+      "description": {
+        "en": "Citation Auditor — 审查 AI 回复里的引用来源：扫描、评分、出报表，只读不拦截",
+        "zh": "Citation Auditor — 审查 AI 回复里的引用来源：扫描、评分、出报表，只读不拦截"
+      },
+      "install": "dsh plugin --profile web add github:AndKinoko/DSH-Search-Citation-Auditor",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-quota-monitor",
+      "owner": "shxtmaker",
+      "url": "https://github.com/shxtmaker/dsh-usage-monitor",
+      "category": "ui",
+      "description": {
+        "en": "供应商可用周期限额监控：DSH sidebar 小组件 + 详情页，支持 DeepSeek 余额 / OpenCode 窗口与 allowance / Command Code 额度，含当日消耗量与当前供应商过滤；自动探测 DSH 已添加供应商并自动填入 API Key（密钥脱敏存储，手动 Key 不覆盖）。",
+        "zh": "供应商可用周期限额监控：DSH sidebar 小组件 + 详情页，支持 DeepSeek 余额 / OpenCode 窗口与 allowance / Command Code 额度，含当日消耗量与当前供应商过滤；自动探测 DSH 已添加供应商并自动填入 API Key（密钥脱敏存储，手动 Key 不覆盖）。"
+      },
+      "install": "dsh plugin --profile web add github:shxtmaker/dsh-usage-monitor",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-skill-evolution",
+      "owner": "VanadisGithub",
+      "url": "https://github.com/VanadisGithub/dsh-skill-evolution",
+      "category": "memory",
+      "description": {
+        "en": "DSH web plugin: Hermes-style skill self-evolution. Watches agent execution traces, crystallizes reusable skills from successful turns via LLM review, progressively improves them, and manages everything in a dedicated Settings section.",
+        "zh": "DSH web plugin: Hermes-style skill self-evolution. Watches agent execution traces, crystallizes reusable skills from successful turns via LLM review, progressively improves them, and manages everything in a dedicated Settings section."
+      },
+      "install": "dsh plugin --profile web add github:VanadisGithub/dsh-skill-evolution",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-preview-plugin",
+      "owner": "RaulLazaro",
+      "url": "https://github.com/RaulLazaro/dsh-preview-plugin",
+      "category": "tools",
+      "description": {
+        "en": "Live preview tab for DSH — embed any dev server in an iframe",
+        "zh": "Live preview tab for DSH — embed any dev server in an iframe"
+      },
+      "install": "dsh plugin --profile web add github:RaulLazaro/dsh-preview-plugin",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-tool-ssh",
+      "owner": "hcyinnn",
+      "url": "https://github.com/hcyinnn/dsh-tool-ssh",
+      "category": "notify",
+      "description": {
+        "en": "Model-facing SSH tools for DeepSeek Harness (dsh): run remote commands and transfer files via OpenSSH. 让 dsh Agent 通过 SSH 在远程主机上执行命令、上传/下载文件。",
+        "zh": "Model-facing SSH tools for DeepSeek Harness (dsh): run remote commands and transfer files via OpenSSH. 让 dsh Agent 通过 SSH 在远程主机上执行命令、上传/下载文件。"
+      },
+      "install": "dsh plugin --profile web add github:hcyinnn/dsh-tool-ssh",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@kenz1117/dsh-engram",
+      "owner": "kenz1117",
+      "url": "https://github.com/kenz1117/dsh-engram",
+      "category": "memory",
+      "description": {
+        "en": "Cross-session long-term memory for DeepSeek Harness: dual-scope SQLite memory graph, hybrid retrieval, provenance audit, and a knowledge flywheel.",
+        "zh": "Cross-session long-term memory for DeepSeek Harness: dual-scope SQLite memory graph, hybrid retrieval, provenance audit, and a knowledge flywheel."
+      },
+      "install": "dsh plugin --profile web add github:kenz1117/dsh-engram",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@coldcgh/dsh-desktop-shell",
+      "owner": "zerorigin-studio",
+      "url": "https://github.com/zerorigin-studio/dsh-desktop-shell",
+      "category": "ui",
+      "description": {
+        "en": "dsh desktop shell: wrap the running dsh web (Harness) into a real desktop client — auto-launch, protocol file, shortcut registration & cleanup, autostart setting",
+        "zh": "dsh desktop shell: wrap the running dsh web (Harness) into a real desktop client — auto-launch, protocol file, shortcut registration & cleanup, autostart setting"
+      },
+      "install": "dsh plugin --profile web add github:zerorigin-studio/dsh-desktop-shell",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-data-cleaning-agent",
+      "owner": "duhu2000",
+      "url": "https://github.com/duhu2000/dsh-data-cleaning-agent",
+      "category": "notify",
+      "description": {
+        "en": "Clean, complete, and profile enterprise name lists in DeepSeek Harness — a data cleaning & completion agent plugin with local CSV/XLSX/JSON engine and optional Qichacha (QCC) MCP enrichment. Maintained by Qichacha/QCC.",
+        "zh": "Clean, complete, and profile enterprise name lists in DeepSeek Harness — a data cleaning & completion agent plugin with local CSV/XLSX/JSON engine and optional Qichacha (QCC) MCP enrichment. Maintained by Qichacha/QCC."
+      },
+      "install": "dsh plugin --profile web add github:duhu2000/dsh-data-cleaning-agent",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "liangwengu",
+      "owner": "VinciBeans",
+      "url": "https://github.com/VinciBeans/deepseek-plugin-liangwengu",
+      "category": "workflow",
+      "description": {
+        "en": "梁文谷 DSH 插件：在会话标题栏右侧（日志导出按钮左侧）显示当前算力错峰时段（工作日 09:00–12:00 与 14:00–18:00 为梁文峰，其余时间含整个周末为梁文谷），并实时倒计时当前时段剩余时间；谷期跨天计算，直达下一工作日 09:00。适配 dsh-v0.1.2-alpha.1 ~ alpha.3。",
+        "zh": "梁文谷 DSH 插件：在会话标题栏右侧（日志导出按钮左侧）显示当前算力错峰时段（工作日 09:00–12:00 与 14:00–18:00 为梁文峰，其余时间含整个周末为梁文谷），并实时倒计时当前时段剩余时间；谷期跨天计算，直达下一工作日 09:00。适配 dsh-v0.1.2-alpha.1 ~ alpha.3。"
+      },
+      "install": "dsh plugin --profile web add github:VinciBeans/deepseek-plugin-liangwengu",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-plugin-noticeme",
+      "owner": "lw-storm",
+      "url": "https://github.com/lw-storm/dsh-plugin-noticeme",
+      "category": "ui",
+      "description": {
+        "en": "Notify me when DSH needs me: desktop notification (with tab-title fallback) when an approval prompt or an ask-user-question card appears while the page is in the background.",
+        "zh": "Notify me when DSH needs me: desktop notification (with tab-title fallback) when an approval prompt or an ask-user-question card appears while the page is in the background."
+      },
+      "install": "dsh plugin --profile web add github:lw-storm/dsh-plugin-noticeme",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@abc12524/dsh-openviking",
+      "owner": "abc12524",
+      "url": "https://github.com/abc12524/dsh-openviking",
+      "category": "memory",
+      "description": {
+        "en": "OpenViking memory integration: Web Settings plugin card + automatic memory-context injection",
+        "zh": "OpenViking memory integration: Web Settings plugin card + automatic memory-context injection"
+      },
+      "install": "dsh plugin --profile web add github:abc12524/dsh-openviking",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-result-cap",
+      "owner": "jwilson411",
+      "url": "https://github.com/jwilson411/dsh-result-cap",
+      "category": "workflow",
+      "description": {
+        "en": "DeepSeek Harness plugin: a deterministic UTF-8 byte cap on tool results, keeping the first N bytes and carrying a sha256 of the full original so a truncated result is never mistaken for a whole one",
+        "zh": "DeepSeek Harness plugin: a deterministic UTF-8 byte cap on tool results, keeping the first N bytes and carrying a sha256 of the full original so a truncated result is never mistaken for a whole one"
+      },
+      "install": "dsh plugin --profile web add github:jwilson411/dsh-result-cap",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-native-codex-oauth",
+      "owner": "kfc966",
+      "url": "https://github.com/kfc966/dsh-native-codex-oauth",
+      "category": "tools",
+      "description": {
+        "en": "Native ChatGPT OAuth controls for DeepSeek Harness's built-in OpenAI Codex provider",
+        "zh": "Native ChatGPT OAuth controls for DeepSeek Harness's built-in OpenAI Codex provider"
+      },
+      "install": "dsh plugin --profile web add github:kfc966/dsh-native-codex-oauth",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-critique-loop",
+      "owner": "Milbaxter",
+      "url": "https://github.com/Milbaxter/dsh-critique-loop",
+      "category": "workflow",
+      "description": {
+        "en": "DeepSeek Harness plugin: forces one critique-and-improve round after each completed turn.",
+        "zh": "DeepSeek Harness plugin: forces one critique-and-improve round after each completed turn."
+      },
+      "install": "dsh plugin --profile web add github:Milbaxter/dsh-critique-loop",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-genui",
+      "owner": "lhuans",
+      "url": "https://github.com/lhuans/dsh-genui",
+      "category": "ui",
+      "description": {
+        "en": "GenUI for DeepSeek Harness: interactive charts, forms, calculators, dashboards, and mini apps rendered inline in assistant replies, with actions that flow back to the model.",
+        "zh": "GenUI for DeepSeek Harness: interactive charts, forms, calculators, dashboards, and mini apps rendered inline in assistant replies, with actions that flow back to the model."
+      },
+      "install": "dsh plugin --profile web add github:lhuans/dsh-genui",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-suggest-ghost",
+      "owner": "WuJiaoJue",
+      "url": "https://github.com/WuJiaoJue/dsh-suggest-ghost",
+      "category": "dev",
+      "description": {
+        "en": "DSH Web 输入预测插件：回合结束后 LLM 生成下一条建议，输入框空草稿时渲染幽灵文本，Tab 采纳（Claude Code 风格）。host 端 + client 端，零核心改动。",
+        "zh": "DSH Web 输入预测插件：回合结束后 LLM 生成下一条建议，输入框空草稿时渲染幽灵文本，Tab 采纳（Claude Code 风格）。host 端 + client 端，零核心改动。"
+      },
+      "install": "dsh plugin --profile web add github:WuJiaoJue/dsh-suggest-ghost",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-locale-zh-tw",
+      "owner": "wangsan71",
+      "url": "https://github.com/wangsan71/dsh-locale-zh-tw",
+      "category": "tools",
+      "description": {
+        "en": "DSH Web 介面繁體中文（台灣）語言包：npm install 即可加入 zh-TW 語系，全介面自動簡轉繁，繁中瀏覽器自動切換",
+        "zh": "DSH Web 介面繁體中文（台灣）語言包：npm install 即可加入 zh-TW 語系，全介面自動簡轉繁，繁中瀏覽器自動切換"
+      },
+      "install": "dsh plugin --profile web add github:wangsan71/dsh-locale-zh-tw",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@tnnevol/dsh-codex-auth",
+      "owner": "tnnevol",
+      "url": "https://github.com/tnnevol/fn-os-apps",
+      "category": "tools",
+      "description": {
+        "en": "Standalone ChatGPT OAuth account management for DeepSeek Harness.",
+        "zh": "Standalone ChatGPT OAuth account management for DeepSeek Harness."
+      },
+      "install": "dsh plugin --profile web add github:tnnevol/fn-os-apps#8a4e26fecb4ed00be4a7b4e5ff59d8b80e340627&path:plugins/dsh-codex-auth-plugin",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@tnnevol/dsh-fnos",
+      "owner": "tnnevol",
+      "url": "https://github.com/tnnevol/fn-os-apps",
+      "category": "tools",
+      "description": {
+        "en": "fnOS-specific integrations for DeepSeek Harness.",
+        "zh": "fnOS-specific integrations for DeepSeek Harness."
+      },
+      "install": "dsh plugin --profile web add github:tnnevol/fn-os-apps#8a4e26fecb4ed00be4a7b4e5ff59d8b80e340627&path:plugins/dsh-fnos-plugin",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@tnnevol/dsh-semi-ui-showcase",
+      "owner": "tnnevol",
+      "url": "https://github.com/tnnevol/fn-os-apps",
+      "category": "ui",
+      "description": {
+        "en": "Component showcase for the shared DSH-themed Semi Design package.",
+        "zh": "Component showcase for the shared DSH-themed Semi Design package."
+      },
+      "install": "dsh plugin --profile web add github:tnnevol/fn-os-apps#8a4e26fecb4ed00be4a7b4e5ff59d8b80e340627&path:plugins/dsh-semi-ui-showcase-plugin",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-web-mobile",
+      "owner": "ADXZXCD",
+      "url": "https://github.com/ADXZXCD/dsh-web-mobile",
+      "category": "ui",
+      "description": {
+        "en": "尽可能的使dsh适配竖屏等移动端设备",
+        "zh": "尽可能的使dsh适配竖屏等移动端设备"
+      },
+      "install": "dsh plugin --profile web add github:ADXZXCD/dsh-web-mobile",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-preset-zombie-guard",
+      "owner": "shenhuanageshei",
+      "url": "https://github.com/shenhuanageshei/dsh-preset-zombie-guard",
+      "category": "workflow",
+      "description": {
+        "en": "Preset-zombie guard for DeepSeek Harness: periodically scans session logs (zstd frame decoding) for sessions whose effective agent preset no longer exists in the roster; auto-archives blank zombies via the official workspaceRegistry API and deduplicates warnings for non-blank ones. Ships preset_guard_check_remove (full-decode dependency audit to run before deleting any user preset) and preset_guard_last_report. Born from the 2026-08-31 preset-deletion incident. 预设僵尸守护：周期扫描会话日志识别失效预设引用；空白僵尸自动归档，非空白告警去重；删除预设前的依赖安全检查。",
+        "zh": "Preset-zombie guard for DeepSeek Harness: periodically scans session logs (zstd frame decoding) for sessions whose effective agent preset no longer exists in the roster; auto-archives blank zombies via the official workspaceRegistry API and deduplicates warnings for non-blank ones. Ships preset_guard_check_remove (full-decode dependency audit to run before deleting any user preset) and preset_guard_last_report. Born from the 2026-08-31 preset-deletion incident. 预设僵尸守护：周期扫描会话日志识别失效预设引用；空白僵尸自动归档，非空白告警去重；删除预设前的依赖安全检查。"
+      },
+      "install": "dsh plugin --profile web add github:shenhuanageshei/dsh-preset-zombie-guard",
+      "added": "2026-09-01",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-memory_rollout",
+      "owner": "Bionic-forest",
+      "url": "https://github.com/Bionic-forest/dsh-memory_rollout",
+      "category": "memory",
+      "description": {
+        "en": "Codex-style per-session memory draft for DeepSeek Harness: one session one draft (rollout_summaries), restrained & passive (write only on explicit user request), layered disclosure (summary + registry), idempotent integration watermark. / 一会话一草稿记忆插件。",
+        "zh": "Codex-style per-session memory draft for DeepSeek Harness: one session one draft (rollout_summaries), restrained & passive (write only on explicit user request), layered disclosure (summary + registry), idempotent integration watermark. / 一会话一草稿记忆插件。"
+      },
+      "install": "dsh plugin --profile web add github:Bionic-forest/dsh-memory_rollout",
       "added": "2026-09-01",
       "discoveredFrom": "dshhub.org"
     }
