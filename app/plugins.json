@@ -3,7 +3,7 @@
   "url": "https://dshplugin.io",
   "source": "https://github.com/tjsdyy/dshplugin",
   "updated": "2026-08-15",
-  "count": 3205,
+  "count": 3218,
   "categories": {
     "ui": {
       "en": "UI",
@@ -42519,6 +42519,175 @@
         "zh": "Composer model seat takeover: sticky search + fuzzy matching over the shared model directory"
       },
       "install": "dsh plugin --profile web add github:lovstudio/dsh-search-model",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-team",
+      "owner": "Silktex",
+      "url": "https://github.com/Silktex/dsh-team",
+      "category": "workflow",
+      "description": {
+        "en": "Durable agent teams, shared tasks, peer messaging, and a web dashboard for DeepSeek Harness",
+        "zh": "Durable agent teams, shared tasks, peer messaging, and a web dashboard for DeepSeek Harness"
+      },
+      "install": "dsh plugin --profile web add github:Silktex/dsh-team",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@mill413/dsh-client-ui-session-resume",
+      "owner": "mill413",
+      "url": "https://github.com/mill413/dsh-session-resume",
+      "category": "ui",
+      "description": {
+        "en": "Continue button for a crash-interrupted session turn, docked above the composer",
+        "zh": "Continue button for a crash-interrupted session turn, docked above the composer"
+      },
+      "install": "dsh plugin --profile web add github:mill413/dsh-session-resume#7871515d3e3b6331988fe8186f91965cdc42d4b2&path:packages/ui-session-resume",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@mill413/dsh-session-resume",
+      "owner": "mill413",
+      "url": "https://github.com/mill413/dsh-session-resume",
+      "category": "notify",
+      "description": {
+        "en": "User-triggered continuation of a crash-interrupted session turn, exposed through the sessionResume projection and remote action",
+        "zh": "User-triggered continuation of a crash-interrupted session turn, exposed through the sessionResume projection and remote action"
+      },
+      "install": "dsh plugin --profile web add github:mill413/dsh-session-resume#7871515d3e3b6331988fe8186f91965cdc42d4b2&path:packages/session-resume",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-advisor-group",
+      "owner": "xingzhen199186",
+      "url": "https://github.com/xingzhen199186/dsh-advisor-group",
+      "category": "skill",
+      "description": {
+        "en": "DSH plugin: consult multiple expert advisor models in a retro chat-group card — auto-deepen consultation pipeline with real streaming, SSE replay, and 26 provider presets.",
+        "zh": "DSH plugin: consult multiple expert advisor models in a retro chat-group card — auto-deepen consultation pipeline with real streaming, SSE replay, and 26 provider presets."
+      },
+      "install": "dsh plugin --profile web add github:xingzhen199186/dsh-advisor-group",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-wellness",
+      "owner": "ZSCDumin",
+      "url": "https://github.com/ZSCDumin/dsh-wellness",
+      "category": "workflow",
+      "description": {
+        "en": "DeepSeek Harness health reminders: eat/sleep on a schedule and take a break after 2 hours of active work, delivered as in-session nudges.",
+        "zh": "DeepSeek Harness health reminders: eat/sleep on a schedule and take a break after 2 hours of active work, delivered as in-session nudges."
+      },
+      "install": "dsh plugin --profile web add github:ZSCDumin/dsh-wellness",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-btw",
+      "owner": "clclyzybzjsq",
+      "url": "https://github.com/clclyzybzjsq/dsh-btw",
+      "category": "memory",
+      "description": {
+        "en": "Global /btw command: one-off model Q&A that is not recorded into session memory (Claude Code /btw equivalent)",
+        "zh": "Global /btw command: one-off model Q&A that is not recorded into session memory (Claude Code /btw equivalent)"
+      },
+      "install": "dsh plugin --profile web add github:clclyzybzjsq/dsh-btw",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "cloudflare-dsh",
+      "owner": "d4551",
+      "url": "https://github.com/d4551/cloudflare-dsh",
+      "category": "notify",
+      "description": {
+        "en": "Cloudflare tools, AI Gateway model provider, and MCP passthrough for DeepSeek Harness.",
+        "zh": "Cloudflare tools, AI Gateway model provider, and MCP passthrough for DeepSeek Harness."
+      },
+      "install": "dsh plugin --profile web add github:d4551/cloudflare-dsh#c9d80dabfae8512ed99c2f900bb1ce897d3b89dd&path:packages/bundle",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "harness-memory",
+      "owner": "Oissp",
+      "url": "https://github.com/Oissp/dsh-desktop",
+      "category": "memory",
+      "description": {
+        "en": "dsh-memory: 跨会话记忆插件（ctx.storage 存记忆 + system-prompt section 注入）",
+        "zh": "dsh-memory: 跨会话记忆插件（ctx.storage 存记忆 + system-prompt section 注入）"
+      },
+      "install": "dsh plugin --profile web add github:Oissp/dsh-desktop#f7b4bfa8e8c780cc134bfd9612807380b0935157&path:plugins/harness-memory",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@foggy-projects/deepseek-harness-plugin",
+      "owner": "foggy-projects",
+      "url": "https://github.com/foggy-projects/foggy-deepseek-harness-plugin",
+      "category": "notify",
+      "description": {
+        "en": "Foggy Java data analysis engine integration for DeepSeek Harness",
+        "zh": "Foggy Java data analysis engine integration for DeepSeek Harness"
+      },
+      "install": "dsh plugin --profile web add github:foggy-projects/foggy-deepseek-harness-plugin",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-whale-particles",
+      "owner": "fewoot",
+      "url": "https://github.com/fewoot/dsh-whale-particles",
+      "category": "ui",
+      "description": {
+        "en": "Interactive whale particle background for the DSH Web UI: every dot carries its own slow force; mouse disturbs them, plus an auto screensaver mode with 360-degree waves and full-screen breathing.",
+        "zh": "Interactive whale particle background for the DSH Web UI: every dot carries its own slow force; mouse disturbs them, plus an auto screensaver mode with 360-degree waves and full-screen breathing."
+      },
+      "install": "dsh plugin --profile web add github:fewoot/dsh-whale-particles",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@canary-builds/dsh-mobile-ui",
+      "owner": "Canary-Builds",
+      "url": "https://github.com/Canary-Builds/dsh-mobile-ui",
+      "category": "ui",
+      "description": {
+        "en": "Mobile and PWA interface enhancements for DeepSeek Harness, inside your existing web UI.",
+        "zh": "Mobile and PWA interface enhancements for DeepSeek Harness, inside your existing web UI."
+      },
+      "install": "dsh plugin --profile web add github:Canary-Builds/dsh-mobile-ui",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@canary-builds/dsh-connect",
+      "owner": "Canary-Builds",
+      "url": "https://github.com/Canary-Builds/dhs-connect",
+      "category": "notify",
+      "description": {
+        "en": "Connect DeepSeek Harness to ChatGPT models through the Codex app-server",
+        "zh": "Connect DeepSeek Harness to ChatGPT models through the Codex app-server"
+      },
+      "install": "dsh plugin --profile web add github:Canary-Builds/dhs-connect",
+      "added": "2026-09-06",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@shuishuipingan/inkweaver-dsh",
+      "owner": "shuishuipingan",
+      "url": "https://github.com/shuishuipingan/InkWeaver",
+      "category": "workflow",
+      "description": {
+        "en": "The author-controlled InkWeaver extension for DSH",
+        "zh": "The author-controlled InkWeaver extension for DSH"
+      },
+      "install": "dsh plugin --profile web add github:shuishuipingan/InkWeaver#74461ad34dbabf69cdf85180163d1403027eb6c1&path:plugins/inkweaver-dsh",
       "added": "2026-09-06",
       "discoveredFrom": "dshhub.org"
     }
