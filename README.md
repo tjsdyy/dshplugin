@@ -1,6 +1,6 @@
 # DeepSeek Harness Plugin Marketplace
 
-[![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-3199-5660dc)](https://github.com/tjsdyy/dshplugin)
+[![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-3205-5660dc)](https://github.com/tjsdyy/dshplugin)
 [![Live](https://img.shields.io/badge/Live-DSH_Market-3d9f6f)](https://dshplugin.io/)
 [![Auto sync](https://img.shields.io/badge/catalog-auto--synced-24242b)](https://github.com/tjsdyy/dshplugin/actions/workflows/sync-plugins.yml)
 
@@ -28,10 +28,10 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [Themes](#themes) — 10 plugins · 主题与外观
 - [Sessions](#sessions) — 30 plugins · 会话与消息
 - [Memory](#memory) — 185 plugins · 记忆
-- [Tools](#tools) — 909 plugins · 工具与能力
+- [Tools](#tools) — 912 plugins · 工具与能力
 - [Skills](#skills) — 204 plugins · 技能包
-- [Automation](#automation) — 620 plugins · 工作流与自动化
-- [Integrations](#integrations) — 264 plugins · 通知与集成
+- [Automation](#automation) — 622 plugins · 工作流与自动化
+- [Integrations](#integrations) — 265 plugins · 通知与集成
 - [Models](#models) — 9 plugins · 模型与账号接入
 - [Runtime](#runtime) — 151 plugins · 开发与运行时
 - [Fun](#fun) — 22 plugins · 娱乐
@@ -1078,7 +1078,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## Tools
 
-**909 plugins · 工具与能力**
+**912 plugins · 工具与能力**
 
 - [**dsh-mcp-bridge**](https://github.com/Edge-Echo/dsh-mcp-bridge) — Curated MCP server bundle: one install brings demo, memory, filesystem, GitHub, Playwright and remote HTTP MCP servers, plus a connectivity verifier tool and CI checks. · `dsh plugin --profile web add dsh-mcp-bridge`
 - [**godot-bridge**](https://github.com/Smalldy/godot-bridge) — DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp. · `dsh plugin --profile web add github:Smalldy/godot-bridge`
@@ -1989,6 +1989,9 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**@arcaneorion/dsh-model-channel-manager**](https://github.com/ArcaneOrion/dsh-model-channel-manager) — DSH model channel manager: roundrobin failover engine (host) + model config view tab (client). · `dsh plugin --profile web add github:ArcaneOrion/dsh-model-channel-manager`
 - [**dsh-web-searxng**](https://github.com/biyuhao/dsh-web-searxng) — DSH plugin: SearXNG-backed search provider for ctx.web (self-hosted, 1GB-VPS friendly) · `dsh plugin --profile web add github:biyuhao/dsh-web-searxng`
 - [**@lovstudio/dsh-model-select-search**](https://github.com/lovstudio/dsh-model-select-search) — Composer model seat takeover: sticky search + fuzzy matching over the shared model directory · `dsh plugin --profile web add github:lovstudio/dsh-model-select-search`
+- [**dsh-chem**](https://github.com/TYEclipse/dsh-chem) — Deterministic chemistry math for DeepSeek Harness (dsh): formula parsing with molar mass (nested parens, hydrates, ionic charges), mass/mole/particle conversions, solution concentration (molarity, dilution, percent) and pH/pOH/buffer math — zero runtime dependencies · `dsh plugin --profile web add github:TYEclipse/dsh-chem`
+- [**dsh-pr-guardian**](https://github.com/Harzva/dsh-pr-guardian) — Authored PR feedback inbox with shared Codex/DSH progress, priorities and read-only GitHub collection. · `dsh plugin --profile web add github:Harzva/dsh-pr-guardian`
+- [**@lovstudio/dsh-search-mode**](https://github.com/lovstudio/dsh-search-model) — Composer model seat takeover: sticky search + fuzzy matching over the shared model directory · `dsh plugin --profile web add github:lovstudio/dsh-search-model`
 
 ## Skills
 
@@ -2201,7 +2204,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## Automation
 
-**620 plugins · 工作流与自动化**
+**622 plugins · 工作流与自动化**
 
 - [**dsh-task-planner**](https://github.com/ztl34245881-commits/dsh-task-planner) — Task planning with experience muscle-memory: condition-reflex recall of past solutions, LLM capability matching, and auto-persisted lessons. · `dsh plugin --profile web add github:ztl34245881-commits/dsh-task-planner`
 - [**dsh_workflow**](https://github.com/icetomoyo/dsh_workflow) — UltraCode-style multi-agent orchestration: a generatable, savable, governable, observable, resumable workflow layer. · `dsh plugin --profile web add github:icetomoyo/dsh_workflow`
@@ -2823,10 +2826,12 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-zcode-persona**](https://github.com/flashyiyi/dsh-zcode-persona) — Make the model believe it is inside the Z.ai Code (Zhipu ZCode) agent environment: replaces the harness identity opener and injects a ZCode rules skeleton with a dynamic project section. 让模型认为自己处于智谱 ZCode Agent 环境。 · `dsh plugin --profile web add github:flashyiyi/dsh-zcode-persona`
 - [**dsh-session-todos**](https://github.com/seeingrain/dsh-session-todos) — 会话内待办事项：右上角悬浮待办面板（展开/收缩）+ 服务器端跨端存储（~/.dsh/dsh-session-todos）+ 会话列表未完成图标。纯插件，不改 DSH 源码。 · `dsh plugin --profile web add github:seeingrain/dsh-session-todos`
 - [**dsh-acp-interactive**](https://github.com/dangpangch/dsh-acp) — Interactive ACP (Agent Client Protocol) v1 plugin for the DeepSeek Harness (dsh): run dsh agents in Zed's Agent Panel as a dsh bundle plugin. · `dsh plugin --profile web add github:dangpangch/dsh-acp`
+- [**@goodandready/dsh-goal**](https://github.com/GooDAnDReaDY/dsh-goal) — Goal mode & autonomous execution plugin for DeepSeek Harness with sticky top banner · `dsh plugin --profile web add github:GooDAnDReaDY/dsh-goal`
+- [**dsh-session-manager**](https://github.com/SunshineR04/dsh-session-manager) — DSH plugin: manage archived sessions — list, restore, permanently delete, a first-class Settings page and a red delete button in the session context menu. · `dsh plugin --profile web add github:SunshineR04/dsh-session-manager`
 
 ## Integrations
 
-**264 plugins · 通知与集成**
+**265 plugins · 通知与集成**
 
 - [**dsh-plugin-call-me**](https://github.com/radres/dsh-plugin-call-me) — Rings your phone over CallKit: `call_me` and `text_me` tools, plus optional turn-end and approval calls whose spoken answer is transcribed back into the session. · `dsh plugin --profile web add github:radres/dsh-plugin-call-me`
 - [**dsh-open-in-vscode**](https://github.com/omdsh-dev/dsh-open-in-vscode) — Open DSH workspace directories in VS Code directly from the web GUI. · `dsh plugin --profile web add github:omdsh-dev/dsh-open-in-vscode`
@@ -3092,6 +3097,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-admin-bridge**](https://github.com/zjlww/dsh-admin-bridge) — Password-gated Sudo access permission mode for DeepSeek Harness · `dsh plugin --profile web add github:zjlww/dsh-admin-bridge`
 - [**dsh-mcp-matlab**](https://github.com/yh01010/dsh-mcp-matlab) — DSH plugin: bridge to the MATLAB MCP server (matlab-mcp-server-windows-x64) · `dsh plugin --profile web add github:yh01010/dsh-mcp-matlab`
 - [**@yeqingtang/dsh-task-watcher-plugin**](https://github.com/YeqingTang/dsh-task-watcher-plugin) — Windows tray monitor for DeepSeek Harness tasks: deploys and launches DshTaskWatcher (standalone PowerShell tray app) from the plugin bundle. Status/start/stop via loopback API. The watcher runs detached from the host process. · `dsh plugin --profile web add github:YeqingTang/dsh-task-watcher-plugin`
+- [**dsh-capability-panel**](https://github.com/pure-craft/dsh-capability-panel) — Inspect and manage the skills, tools, and MCP capabilities available to a DeepSeek Harness agent session. · `dsh plugin --profile web add github:pure-craft/dsh-capability-panel`
 
 ## Models
 
