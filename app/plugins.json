@@ -3,7 +3,7 @@
   "url": "https://dshplugin.io",
   "source": "https://github.com/tjsdyy/dshplugin",
   "updated": "2026-08-15",
-  "count": 3412,
+  "count": 3430,
   "categories": {
     "ui": {
       "en": "UI",
@@ -45210,6 +45210,240 @@
         "zh": "DSH web static plugin: a global cross-session todo inbox. Any session's agent records human-action todos (merge MR, approve work orders, reviews) via inbox_add/inbox_done/inbox_list; a root-scope sidebar entry shows a count badge and an expandable list to view, open, and complete them. Host persists to ~/.dsh/todo-inbox.json and serves /todo-inbox/api HTTP routes for the browser half."
       },
       "install": "dsh plugin --profile web add github:lumoping/dsh-todo-inbox",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@ottttto/dsh-scheduled-send",
+      "owner": "OTTTTTO",
+      "url": "https://github.com/OTTTTTO/dsh-scheduled-send",
+      "category": "ui",
+      "description": {
+        "en": "DSH plugin: scheduled sending (⏰ composer button, dock list of pending tasks, sidebar 定时任务 panel with cross-session cancel, due-time delivery as a normal user bubble)",
+        "zh": "DSH plugin: scheduled sending (⏰ composer button, dock list of pending tasks, sidebar 定时任务 panel with cross-session cancel, due-time delivery as a normal user bubble)"
+      },
+      "install": "dsh plugin --profile web add github:OTTTTTO/dsh-scheduled-send",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-outlook",
+      "owner": "UnknowCao",
+      "url": "https://github.com/UnknowCao/dsh-outlook",
+      "category": "ui",
+      "description": {
+        "en": "Zero-credential Outlook automation for DSH Harness on Windows: the AI agent drives your LOCAL desktop Outlook client via COM — search/read mail, drafts, reply/forward, calendar, address book, rooms, free/busy. No Graph API app registration, no SMTP passwords, no tenant admin rights. Anything that leaves the machine (send mail / meeting invite) passes a three-layer human gate: two-call confirmation + content-hash binding (the confirmed retry must match what the user last saw) + an independent one-time token the bridge demands. A NewMailEx watcher pushes arrivals to a sidebar badge and the outlook_check_new tool.",
+        "zh": "Zero-credential Outlook automation for DSH Harness on Windows: the AI agent drives your LOCAL desktop Outlook client via COM — search/read mail, drafts, reply/forward, calendar, address book, rooms, free/busy. No Graph API app registration, no SMTP passwords, no tenant admin rights. Anything that leaves the machine (send mail / meeting invite) passes a three-layer human gate: two-call confirmation + content-hash binding (the confirmed retry must match what the user last saw) + an independent one-time token the bridge demands. A NewMailEx watcher pushes arrivals to a sidebar badge and the outlook_check_new tool."
+      },
+      "install": "dsh plugin --profile web add github:UnknowCao/dsh-outlook",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-queue-first-enter",
+      "owner": "himeope",
+      "url": "https://github.com/himeope/dsh-queue-first-enter",
+      "category": "tools",
+      "description": {
+        "en": "DSH Web plugin: pressing Enter with an empty composer immediately steers the first queued message into the running turn.",
+        "zh": "DSH Web plugin: pressing Enter with an empty composer immediately steers the first queued message into the running turn."
+      },
+      "install": "dsh plugin --profile web add github:himeope/dsh-queue-first-enter",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-read-image-view",
+      "owner": "dblate",
+      "url": "https://github.com/dblate/dsh-read-image-view",
+      "category": "tools",
+      "description": {
+        "en": "Show local images read by read_image directly in the dsh Web chat",
+        "zh": "Show local images read by read_image directly in the dsh Web chat"
+      },
+      "install": "dsh plugin --profile web add github:dblate/dsh-read-image-view",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-tool-advisor",
+      "owner": "kvmem",
+      "url": "https://github.com/kvmem/dsh-advisor",
+      "category": "tools",
+      "description": {
+        "en": "Explicit, human-approved advisor requests for DeepSeek Harness",
+        "zh": "Explicit, human-approved advisor requests for DeepSeek Harness"
+      },
+      "install": "dsh plugin --profile web add github:kvmem/dsh-advisor",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-skin-genshin-nicole",
+      "owner": "Wedomizing",
+      "url": "https://github.com/Wedomizing/Dsh_genshin_nicole_skin",
+      "category": "ui",
+      "description": {
+        "en": "原神 · 尼可 PV 背景队列 — 14 张去字幕截图、前后切换与可配置停留时间",
+        "zh": "原神 · 尼可 PV 背景队列 — 14 张去字幕截图、前后切换与可配置停留时间"
+      },
+      "install": "dsh plugin --profile web add github:Wedomizing/Dsh_genshin_nicole_skin",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-desktop-drop-path",
+      "owner": "duanzongyuan",
+      "url": "https://github.com/duanzongyuan/dsh-desktop-drop-path",
+      "category": "ui",
+      "description": {
+        "en": "Drag a file into the composer to auto-fill its absolute path. Desktop app only (relies on the Electron preload path bridge).",
+        "zh": "Drag a file into the composer to auto-fill its absolute path. Desktop app only (relies on the Electron preload path bridge)."
+      },
+      "install": "dsh plugin --profile web add github:duanzongyuan/dsh-desktop-drop-path",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "@tr1v3r/dsh-proxy",
+      "owner": "tr1v3r",
+      "url": "https://github.com/tr1v3r/dsh-proxy",
+      "category": "tools",
+      "description": {
+        "en": "Runtime-switchable outbound proxy for the DeepSeek Harness: hot-reload HTTP(S)/SOCKS5 routing for every global-fetch request via a settings section.",
+        "zh": "Runtime-switchable outbound proxy for the DeepSeek Harness: hot-reload HTTP(S)/SOCKS5 routing for every global-fetch request via a settings section."
+      },
+      "install": "dsh plugin --profile web add github:tr1v3r/dsh-proxy",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-flowtext",
+      "owner": "ytmaps",
+      "url": "https://github.com/ytmaps/dsh-flowtext",
+      "category": "ui",
+      "description": {
+        "en": "Run every DeepSeek Harness task directly in the FlowText Agent UI",
+        "zh": "Run every DeepSeek Harness task directly in the FlowText Agent UI"
+      },
+      "install": "dsh plugin --profile web add github:ytmaps/dsh-flowtext",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-context-window",
+      "owner": "CooperZhuang",
+      "url": "https://github.com/CooperZhuang/dsh-context-window",
+      "category": "tools",
+      "description": {
+        "en": "DSH plugin: Codex-style context management — token-budget notice, model-facing new_context, and handoff reset instead of summary compaction.",
+        "zh": "DSH plugin: Codex-style context management — token-budget notice, model-facing new_context, and handoff reset instead of summary compaction."
+      },
+      "install": "dsh plugin --profile web add github:CooperZhuang/dsh-context-window",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-terminal",
+      "owner": "asymptotee",
+      "url": "https://github.com/asymptotee/dsh-terminal",
+      "category": "ui",
+      "description": {
+        "en": "Terminal UI plugin for DeepSeek Harness: mounts over the dsh-base profile layer through the dsh plugin mechanism, consuming the host runtime",
+        "zh": "Terminal UI plugin for DeepSeek Harness: mounts over the dsh-base profile layer through the dsh plugin mechanism, consuming the host runtime"
+      },
+      "install": "dsh plugin --profile web add github:asymptotee/dsh-terminal",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-llm-capture",
+      "owner": "chengzhicao",
+      "url": "https://github.com/chengzhicao/llm-capture",
+      "category": "tools",
+      "description": {
+        "en": "Inspect raw LLM requests and responses in DeepSeek Harness Web",
+        "zh": "Inspect raw LLM requests and responses in DeepSeek Harness Web"
+      },
+      "install": "dsh plugin --profile web add github:chengzhicao/llm-capture",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-minimal-transcript",
+      "owner": "Wzh0718",
+      "url": "https://github.com/Wzh0718/dsh-minimal-transcript",
+      "category": "ui",
+      "description": {
+        "en": "Hide DSH 0.1.1-rc.2 thinking and tool-process rows in the Web UI.",
+        "zh": "Hide DSH 0.1.1-rc.2 thinking and tool-process rows in the Web UI."
+      },
+      "install": "dsh plugin --profile web add github:Wzh0718/dsh-minimal-transcript",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-paste-code-block",
+      "owner": "cjm-m",
+      "url": "https://github.com/cjm-m/dsh-paste-code-block",
+      "category": "ui",
+      "description": {
+        "en": "Cherry Studio-style paste: pasted text/code blocks into the DSH Web composer render as a bordered, collapsible, language-tagged card instead of a long flat string; the original text is restored as a fenced block on send.",
+        "zh": "Cherry Studio-style paste: pasted text/code blocks into the DSH Web composer render as a bordered, collapsible, language-tagged card instead of a long flat string; the original text is restored as a fenced block on send."
+      },
+      "install": "dsh plugin --profile web add github:cjm-m/dsh-paste-code-block",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-officecli",
+      "owner": "violetdream",
+      "url": "https://github.com/violetdream/dsh-officecli",
+      "category": "ui",
+      "description": {
+        "en": "DeepSeek Harness plugin: operate Office documents via officecli CLI, with live sidebar preview",
+        "zh": "DeepSeek Harness plugin: operate Office documents via officecli CLI, with live sidebar preview"
+      },
+      "install": "dsh plugin --profile web add github:violetdream/dsh-officecli",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-translator-pro",
+      "owner": "jockiller",
+      "url": "https://github.com/jockiller/dsh-translator",
+      "category": "workflow",
+      "description": {
+        "en": "DSH Input Translator: 输入框悬浮快捷翻译与历史找回挂件 (支持当前会话模型 / 智谱 GLM-4-Flash / 自定义 OpenAI 兼容端点)",
+        "zh": "DSH Input Translator: 输入框悬浮快捷翻译与历史找回挂件 (支持当前会话模型 / 智谱 GLM-4-Flash / 自定义 OpenAI 兼容端点)"
+      },
+      "install": "dsh plugin --profile web add github:jockiller/dsh-translator",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-ai-saas-deal-finder",
+      "owner": "ShenXuAkaEkstasis",
+      "url": "https://github.com/ShenXuAkaEkstasis/dsh-ai-saas-deal-finder",
+      "category": "tools",
+      "description": {
+        "en": "DeepSeek Harness plugin that finds and ranks region-appropriate AI/SaaS purchase deals using current evidence and deterministic eligibility checks.",
+        "zh": "DeepSeek Harness plugin that finds and ranks region-appropriate AI/SaaS purchase deals using current evidence and deterministic eligibility checks."
+      },
+      "install": "dsh plugin --profile web add github:ShenXuAkaEkstasis/dsh-ai-saas-deal-finder",
+      "added": "2026-09-09",
+      "discoveredFrom": "dshhub.org"
+    },
+    {
+      "name": "dsh-artifacts",
+      "owner": "lucagiftzek",
+      "url": "https://github.com/lucagiftzek/dsh-artifacts",
+      "category": "ui",
+      "description": {
+        "en": "DSH web plugin: an Artifacts tab in the dsh-better-sidebar panel that lists an agent-produced artifact directory and previews entries in place.",
+        "zh": "DSH web plugin: an Artifacts tab in the dsh-better-sidebar panel that lists an agent-produced artifact directory and previews entries in place."
+      },
+      "install": "dsh plugin --profile web add github:lucagiftzek/dsh-artifacts",
       "added": "2026-09-09",
       "discoveredFrom": "dshhub.org"
     }
