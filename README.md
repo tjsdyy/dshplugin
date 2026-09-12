@@ -1,6 +1,6 @@
 # DeepSeek Harness Plugin Marketplace
 
-[![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-3718-5660dc)](https://github.com/tjsdyy/dshplugin)
+[![Plugins](https://img.shields.io/badge/DeepSeek_Harness_Plugins-3729-5660dc)](https://github.com/tjsdyy/dshplugin)
 [![Live](https://img.shields.io/badge/Live-DSH_Market-3d9f6f)](https://dshplugin.io/)
 [![Auto sync](https://img.shields.io/badge/catalog-auto--synced-24242b)](https://github.com/tjsdyy/dshplugin/actions/workflows/sync-plugins.yml)
 
@@ -24,12 +24,12 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## Plugin categories
 
-- [UI](#ui) — 950 plugins · UI 增强
+- [UI](#ui) — 959 plugins · UI 增强
 - [Themes](#themes) — 10 plugins · 主题与外观
 - [Sessions](#sessions) — 30 plugins · 会话与消息
 - [Memory](#memory) — 216 plugins · 记忆
-- [Tools](#tools) — 1060 plugins · 工具与能力
-- [Skills](#skills) — 227 plugins · 技能包
+- [Tools](#tools) — 1061 plugins · 工具与能力
+- [Skills](#skills) — 228 plugins · 技能包
 - [Automation](#automation) — 726 plugins · 工作流与自动化
 - [Integrations](#integrations) — 305 plugins · 通知与集成
 - [Models](#models) — 9 plugins · 模型与账号接入
@@ -38,7 +38,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## UI
 
-**950 plugins · UI 增强**
+**959 plugins · UI 增强**
 
 - [**dsh-web-mobile-fix**](https://github.com/AcidGr/dsh-web-mobile-fix) — Mobile layout fixes for the Web UI on narrow screens: full-screen settings panel, one-row plugin nav, full-screen sidebar, centered popups, icon-only session-log button. · `dsh plugin --profile web add dsh-web-mobile-fix`
 - [**dsh-web-mobile**](https://github.com/mexiaosqwq/dsh-web-mobile) — Mobile-adaptive layout for the DSH Web UI: the sidebar becomes a content-hugging overlay drawer, the conversation gets the full width, and the settings panel becomes a near-full-width sheet. · `dsh plugin --profile web add github:mexiaosqwq/dsh-web-mobile`
@@ -990,6 +990,15 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-wayfinder-ui**](https://github.com/andrepontesmelo/dsh-wayfinder-ui) — DSH web-profile plugin: spawns one top-level session per ready wayfinder task (wayfinder_spawn_session), prints the spawn protocol (wayfinder_snippet), and triggers an in-session Wayfinder map card above the composer (wayfinder_mock_map), rendered from a session projection like the To-dos panel. · `dsh plugin --profile web add github:andrepontesmelo/dsh-wayfinder-ui`
 - [**dsh-plugin-model-config**](https://github.com/liutian11451-png/dsh-plugin-model-config) — Full model-configuration editor for the DeepSeek Harness web Settings > Models page: every field the deployment's model-config schema declares, not just the handful the shipped UI exposes. · `dsh plugin --profile web add github:liutian11451-png/dsh-plugin-model-config`
 - [**dsh-plugin-compact-button**](https://github.com/liutian11451-png/dsh-plugin-compact-button) — Composer compact control for the DeepSeek Harness web UI: a button beside the model selector that runs the deployment's own /compact command. · `dsh plugin --profile web add github:liutian11451-png/dsh-plugin-compact-button`
+- [**@open-design/dsh-runtime**](https://github.com/nexu-io/open-design) — DeepSeek Harness profile runtime for Open Design · `dsh plugin --profile web add github:nexu-io/open-design#eee03776fbffc24e40f8278b38ef6e95c011f870&path:packages/dsh-runtime`
+- [**@linxin666/dsh-client-ui-web-ui-settings**](https://github.com/zhu1090093659/dsh-web) — Web UI plugin group for the dsh settings page: one first-level settings section that hosts the dsh-web family plugins' enable switches and configuration forms. · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-web-settings`
+- [**@linxin666/dsh-desktop-launcher**](https://github.com/zhu1090093659/dsh-web) — Desktop launcher + one-click shutdown for dsh: create a double-click desktop icon that starts dsh web and opens the Web GUI, plus a floating power button that exits the host process gracefully. Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules symlink, no dsh source changes. · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-desktop-launcher`
+- [**@linxin666/dsh-doctor**](https://github.com/zhu1090093659/dsh-web) — Transactional rescue mode for DSH profiles with a supervised launcher, isolated recovery capsule, deterministic repairs, health monitoring, and a local Web recovery console · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-doctor`
+- [**@linxin666/dsh-liangshen**](https://github.com/zhu1090093659/dsh-web) — LiangShen (梁神) agent preset for the dsh web GUI: a two-phase anchored-standard preset — the first model request exposes only the builtin Minimal exact two-tool surface (persistent bash plus str_replace_editor) with no runtime contexts or injected instructions (Minimal-aligned trajectory anchor), promotion is gated on the first minimal-like reasoning block with a fallback, and the wire then switches to PTC Mode (a single run_code tool over the full registry) with the ordinary injections returning afterwards. The preset files are synced into ~/.dsh/.agent-presets on host startup. Hot-pluggable — mounted via cordis.patch.yml + a profile node_modules symlink, no dsh source changes. · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-liangshen`
+- [**@linxin666/dsh-pet**](https://github.com/zhu1090093659/dsh-web) — Multi-pet companion plugin for the dsh web GUI: a registry-driven floating pet that reacts to model activity, with per-pet naming, petting/feeding interactions and an affinity score · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-pet`
+- [**@linxin666/dsh-remote-web-ui**](https://github.com/zhu1090093659/dsh-web) — Scan-to-pair mobile and PC remote control for the dsh web GUI: QR entry beside the settings button, one-time pairing tokens, a gated /remote/api desktop channel, live device status, and revocable sessions · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-remote-web-ui`
+- [**@linxin666/dsh-ssh**](https://github.com/zhu1090093659/dsh-web) — Remote SSH operations for the dsh web GUI: host config store (~/.dsh/dsh-ssh.json, import from ~/.ssh/config), a persistent ssh2 connection pool with jump-host support, exec / PTY web terminal / SFTP transfer / local port-forward tunnels / cluster execution, plus agent tools (ssh_list, ssh_exec, ssh_upload, ssh_download, ssh_tunnel, ssh_cluster). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules symlink, no dsh source changes. · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-ssh`
+- [**@linxin666/dsh-web-all**](https://github.com/zhu1090093659/dsh-web) — DSH Web UI 全家桶聚合插件：一键安装全部功能插件（task-board / git-graph / pet / remote-web-ui / web-ui-settings / skin-center / community-plugins / compat shim）。compat 桥接层已并入本包（src/client），无需独立 compat npm 包。 · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-web-all`
 
 ## Themes
 
@@ -1264,7 +1273,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 
 ## Tools
 
-**1060 plugins · 工具与能力**
+**1061 plugins · 工具与能力**
 
 - [**dsh-mcp-bridge**](https://github.com/Edge-Echo/dsh-mcp-bridge) — Curated MCP server bundle: one install brings demo, memory, filesystem, GitHub, Playwright and remote HTTP MCP servers, plus a connectivity verifier tool and CI checks. · `dsh plugin --profile web add dsh-mcp-bridge`
 - [**godot-bridge**](https://github.com/Smalldy/godot-bridge) — DSH↔Godot engine runtime bridge: launch and drive a running Godot 4.x game through its in-game TCP interaction server — 8 tools (scene/UI inspection, GDScript eval, input simulation, screenshots, headless static ops, script validation), replaces godot-mcp. · `dsh plugin --profile web add github:Smalldy/godot-bridge`
@@ -2326,10 +2335,11 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-mxpage**](https://github.com/kim1232aa/dsh-mxpage) — DeepSeek Harness plugin: MxPage ecommerce product-image pipeline (analyze → plan → VPA → generate). · `dsh plugin --profile web add github:kim1232aa/dsh-mxpage`
 - [**dsh-restart-btn**](https://github.com/SiriusWJ/dsh-restart-btn) — 重启 Web 服务按钮：在设置页 General 区添加一行重启按钮，宿主端复用桌面启动器的机制（node + lib/bin.js、日志重定向、TCP 就绪轮询）重启 dsh web，页面断开后自动重连。 · `dsh plugin --profile web add github:SiriusWJ/dsh-restart-btn`
 - [**dsh-rp-tools**](https://github.com/SiriusWJ/dsh-rp-tools) — 跑团 / DM 工具插件（DeepSeek Harness）：中立随机裁决 rp_random + 本地 ComfyUI 配图（rp_illustrate / rp_styles / rp_character / rp_scenes / rp_table / rp_session / rp_config）+ 按会话隔离的战役配置（世界 / 角色卡 / 随机表）+ 设置页与会话面板。只依赖本机 ComfyUI，不依赖 dsh-comfyui；RP 工具只在 dm 预设会话注册。 · `dsh plugin --profile web add github:SiriusWJ/dsh-rp-tools`
+- [**@linxin666/dsh-tool-describe-image**](https://github.com/zhu1090093659/dsh-web) — Model-facing describe_image tool for the dsh web GUI: gives a text-only model image understanding by asking a vision-language model at an OpenAI-compatible endpoint to describe one image (local path, http(s) URL, or attachment reference). Hot-pluggable — mounted via ~/.dsh/cordis.patch.yml + a profile node_modules symlink, no dsh source changes. · `dsh plugin --profile web add github:zhu1090093659/dsh-web#8d02146df032e6de8d54b7a0aba2c9da039d47e4&path:packages/dsh-tool-describe-image`
 
 ## Skills
 
-**227 plugins · 技能包**
+**228 plugins · 技能包**
 
 - [**dsh-reverse-skill**](https://github.com/dhicoc/dsh-reverse-skill) — Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router. · `dsh plugin --profile web add github:dhicoc/dsh-reverse-skill`
 - [**skills**](https://github.com/creght-dev/skills) — Skills for building websites on the Creght platform: CLI pull/push sync, page and component conventions, CMS, forms, auth, SEO, publishing and version rollback. · `dsh plugin --profile web add github:creght-dev/skills`
@@ -2558,6 +2568,7 @@ Then ask your agent to find a plugin, or browse the marketplace. The catalog is 
 - [**dsh-plugin-word-docx-writer**](https://github.com/RempleXI/word-docx-writer) — Word (.docx) 生成与排版 Agent Skill（中文长文档通用：实验报告、课程设计报告、毕业论文等），同时作为 skills-only 的 DSH 插件分发。 · `dsh plugin --profile web add github:RempleXI/word-docx-writer`
 - [**dsh-skill-dossier**](https://github.com/JeffreySuen-x/dsh-skill-dossier) — DSH skill dossier and work report plugin: browse, search, archive, review and delete skills, and roll daily briefs into daily, weekly and monthly reports. · `dsh plugin --profile web add github:JeffreySuen-x/dsh-skill-dossier`
 - [**dsh-browser-bsk**](https://github.com/kexuejin/dsh-browser-bsk) — DSH 浏览器能力 seam（ctx.browser）的 bsk 后端：把本机 browser-skill 的 bsk CLI 包成 browser 服务，供 dsh-accounts/fill 等消费者注入。 · `dsh plugin --profile web add github:kexuejin/dsh-browser-bsk`
+- [**@dshhubs/plugin-search**](https://github.com/coderPerseus/dsh-hub) — DeepSeek Harness tools for finding and inspecting plugins in the dshhub catalog · `dsh plugin --profile web add github:coderPerseus/dsh-hub#c3c80405693d4edbc341315cb5143be36f7a8b31&path:packages/dsh-plugin`
 
 ## Automation
 
