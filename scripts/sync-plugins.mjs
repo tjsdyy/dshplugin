@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 
-const UPSTREAM = "https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/docs/plugins.json";
+const UPSTREAM = "https://awesome-dsh-plugin.com/plugins.json";
 const HUB = "https://dshhub.org";
 const SITE = "https://dshplugin.io";
 const REPOSITORY = "https://github.com/tjsdyy/dshplugin";
